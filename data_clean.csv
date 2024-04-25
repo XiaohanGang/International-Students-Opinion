@@ -1,0 +1,788 @@
+,age,gender,degree,discipline,region,att_1,att_2,att_3,att_4,att_5,att_6,att_7,att_rates
+0,26-30,female,master,Other,Asian,5,5,4,4,5,5,5,33
+1,26-30,female,phd,Other,Asian,4,4,4,3,4,4,4,27
+2,26-30,male,phd,Other,Asian,5,4,4,5,5,5,5,33
+3,31-35,male,phd,Other,African,3,3,2,5,4,4,3,24
+4,36-40,male,phd,Other,White,3,3,4,3,3,3,3,22
+5,31-35,female,master,Other,Other,3,4,4,5,4,3,4,27
+6,31-35,female,master,Other,Asian,5,4,4,4,5,5,5,32
+7,36-40,male,master,Other,Other,3,5,5,5,3,4,2,27
+8,31-35,male,phd,Other,Asian,3,3,5,3,3,3,5,25
+9,31-35,female,phd,Other,Other,3,3,3,5,3,5,5,27
+10,26-30,male,master,Other,Asian,5,4,3,4,4,4,4,28
+11,26-30,male,master,Other,Asian,5,5,4,4,4,3,3,28
+12,26-30,female,master,Other,Asian,5,3,3,4,3,3,3,24
+13,26-30,female,master,Other,Asian,3,3,3,3,3,2,3,20
+14,41-45,male,phd,Other,African,5,5,5,5,5,5,5,35
+15,31-35,male,master,Other,Asian,4,4,4,4,4,4,4,28
+16,36-40,male,master,Other,Asian,5,5,5,5,5,5,3,33
+17,31-35,female,master,Other,Asian,5,3,4,4,3,4,4,27
+18,36-40,female,master,Other,White,3,3,3,3,3,3,3,21
+19,31-35,female,phd,Other,Other,3,4,4,5,4,5,3,28
+20,31-35,female,phd,Other,Asian,4,3,4,4,3,4,4,26
+21,31-35,na,phd,Other,Asian,5,5,5,5,5,4,5,34
+22,36-40,female,phd,Other,Asian,4,4,4,5,4,4,5,30
+23,36-40,male,phd,Other,Other,5,3,4,4,3,3,3,25
+24,31-35,male,phd,Other,Asian,4,3,5,5,4,3,4,28
+25,36-40,male,phd,Other,Other,3,4,4,5,4,4,5,29
+26,41-45,female,phd,Other,Other,3,3,4,5,2,3,3,23
+27,26-30,female,phd,Other,Other,3,4,4,4,3,4,2,24
+28,36-40,female,phd,Other,Other,3,3,5,5,3,4,2,25
+29,41-45,male,master,Other,African,4,5,5,5,5,5,5,34
+30,26-30,female,phd,Other,Asian,5,4,5,5,5,5,4,33
+31,36-40,female,phd,Other,Asian,3,5,4,4,4,3,3,26
+32,31-35,female,phd,Other,Asian,5,5,5,5,5,5,5,35
+33,36-40,male,master,Other,Asian,2,2,2,2,3,2,3,16
+34,31-35,male,master,Other,African,5,4,4,5,5,5,5,33
+35,26-30,male,master,Other,Asian,5,4,5,5,5,5,4,33
+36,31-35,male,phd,Other,Other,3,1,4,5,2,1,3,19
+37,36-40,female,master,Other,Asian,5,5,4,5,3,3,5,30
+38,31-35,female,master,Other,Asian,3,3,3,4,3,3,3,22
+39,26-30,female,phd,Other,Asian,4,3,3,4,3,4,2,23
+40,26-30,female,phd,Other,White,3,3,4,3,3,4,3,23
+41,26-30,male,phd,Other,Asian,4,2,5,5,3,3,3,25
+42,31-35,female,phd,Other,Asian,3,1,1,1,3,3,4,16
+43,26-30,male,phd,Other,Other,3,3,3,5,3,3,3,23
+44,26-30,female,phd,Other,Asian,4,3,3,5,4,4,4,27
+45,36-40,female,phd,Other,Other,3,1,3,4,3,4,4,22
+46,26-30,male,phd,Other,Asian,4,5,4,5,4,4,4,30
+47,31-35,male,master,Other,Asian,5,5,5,5,5,5,5,35
+48,26-30,female,phd,Other,Asian,5,4,4,4,4,4,4,29
+49,36-40,male,phd,Other,Asian,5,3,4,2,3,5,3,25
+50,31-35,male,phd,Other,African,5,5,5,5,5,5,5,35
+51,31-35,female,phd,Other,Other,4,3,3,5,3,4,3,25
+52,31-35,male,phd,Other,Asian,2,3,4,5,4,4,4,26
+53,31-35,male,phd,Other,Asian,4,5,5,3,5,4,4,30
+54,31-35,female,phd,Other,Asian,5,5,5,5,5,5,4,34
+55,31-35,female,phd,Other,Asian,4,3,4,5,4,5,3,28
+56,36-40,female,phd,Other,Other,2,4,2,5,3,5,3,24
+57,26-30,female,phd,Other,Asian,2,2,2,2,2,2,2,14
+58,31-35,male,phd,Other,African,5,5,5,5,5,5,5,35
+59,31-35,male,master,Other,Asian,4,4,4,3,4,4,4,27
+60,26-30,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+61,31-35,male,phd,Physical Sciences,White,3,3,3,3,3,3,3,21
+62,31-35,male,master,Physical Sciences,White,3,3,3,3,3,3,5,23
+63,26-30,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+64,26-30,male,phd,Physical Sciences,White,3,3,3,4,3,3,3,22
+65,26-30,male,master,Physical Sciences,White,3,3,3,3,2,3,3,20
+66,26-30,female,phd,Physical Sciences,Asian,3,3,3,3,3,3,3,21
+67,31-35,male,phd,Physical Sciences,Asian,4,3,5,3,4,5,4,28
+68,26-30,male,phd,Engineering,Asian,4,4,2,4,4,4,4,26
+69,26-30,male,phd,Physical Sciences,Asian,2,3,4,2,2,2,1,16
+70,26-30,female,master,Engineering,Asian,5,5,4,3,3,3,4,27
+71,26-30,female,phd,Engineering,Asian,3,4,5,5,5,5,4,31
+72,31-35,male,phd,Life Sciences,Asian,5,4,4,5,4,5,4,31
+73,26-30,female,master,Engineering,Asian,3,3,4,5,4,5,4,28
+74,26-30,male,phd,Engineering,Asian,4,5,3,4,4,5,5,30
+75,26-30,female,phd,Life Sciences,Asian,4,4,3,5,4,3,3,26
+76,31-35,female,phd,Life Sciences,Asian,4,4,4,3,3,4,3,25
+77,36-40,male,phd,Engineering,Asian,5,4,4,3,5,5,2,28
+78,36-40,female,phd,Physical Sciences,Asian,3,3,4,3,3,4,3,23
+79,26-30,male,phd,Engineering,Asian,3,3,4,4,4,3,4,25
+80,31-35,male,phd,Engineering,Asian,4,3,3,3,4,4,4,25
+81,31-35,female,phd,Life Sciences,Asian,4,4,4,4,4,4,4,28
+82,31-35,male,phd,Physical Sciences,Other,5,3,4,5,5,5,4,31
+83,36-40,female,master,Engineering,Asian,5,4,3,5,5,3,3,28
+84,31-35,female,phd,Life Sciences,Asian,4,5,3,3,3,4,2,24
+85,36-40,female,phd,Physical Sciences,Asian,3,5,3,2,3,5,5,26
+86,26-30,male,master,Engineering,Asian,5,4,4,5,5,5,5,33
+87,26-30,male,phd,Physical Sciences,Asian,3,4,3,3,3,3,4,23
+88,31-35,female,phd,Physical Sciences,Asian,5,5,5,4,5,5,3,32
+89,31-35,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+90,26-30,male,master,Computer Science,Asian,2,4,4,2,4,3,4,23
+91,26-30,female,master,Computer Science,Asian,3,3,3,1,3,3,3,19
+92,31-35,male,phd,Physical Sciences,Asian,5,5,5,5,5,5,5,35
+93,26-30,male,phd,Computer Science,Asian,4,4,4,3,3,3,4,25
+94,26-30,male,master,Computer Science,Other,4,3,3,4,3,4,3,24
+95,36-40,male,phd,Life Sciences,White,4,4,5,4,4,4,4,29
+96,36-40,male,phd,Engineering,Asian,1,3,3,3,3,2,4,19
+97,31-35,female,phd,Life Sciences,Asian,4,4,4,4,4,4,4,28
+98,36-40,male,phd,Mathematics,Asian,3,3,3,3,3,3,2,20
+99,26-30,female,master,Computer Science,Asian,5,4,4,3,3,4,4,27
+100,26-30,male,phd,Physical Sciences,Asian,4,3,3,2,4,4,3,23
+101,26-30,female,phd,Life Sciences,Other,5,4,3,3,4,5,4,28
+102,26-30,male,phd,Life Sciences,White,3,3,2,3,3,3,4,21
+103,26-30,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+104,26-30,male,phd,Life Sciences,White,3,2,3,3,3,4,4,22
+105,31-35,male,master,Computer Science,Asian,4,4,4,3,3,4,4,26
+106,26-30,male,master,Physical Sciences,Asian,5,2,3,4,3,3,3,23
+107,31-35,male,phd,Physical Sciences,White,5,3,4,5,3,3,4,27
+108,31-35,male,phd,Computer Science,Asian,1,2,2,2,3,3,3,16
+109,31-35,male,phd,Life Sciences,Asian,3,1,2,2,3,3,3,17
+110,26-30,male,master,Computer Science,Asian,4,4,3,4,4,3,3,25
+111,26-30,male,master,Computer Science,Asian,3,5,4,4,4,4,3,27
+112,26-30,female,phd,Physical Sciences,Asian,5,5,5,5,5,5,5,35
+113,26-30,female,master,Computer Science,Asian,5,3,3,3,5,5,5,29
+114,26-30,male,phd,Computer Science,Asian,2,3,1,3,3,3,2,17
+115,26-30,female,phd,Life Sciences,Asian,5,5,4,3,4,4,5,30
+116,36-40,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+117,31-35,female,phd,Life Sciences,White,5,3,4,5,4,4,4,29
+118,26-30,female,master,Life Sciences,Asian,5,3,3,5,4,3,3,26
+119,31-35,male,master,Engineering,White,3,4,3,4,3,4,3,24
+120,26-30,male,phd,Engineering,Asian,4,3,3,5,5,4,4,28
+121,31-35,female,phd,Life Sciences,White,3,3,3,3,3,4,3,22
+122,26-30,female,master,Computer Science,Asian,5,4,3,4,4,5,3,28
+123,26-30,male,phd,Physical Sciences,White,4,3,4,4,3,3,3,24
+124,26-30,female,phd,Physical Sciences,Asian,5,4,3,3,4,3,3,25
+125,26-30,male,phd,Physical Sciences,Asian,4,3,4,4,5,4,4,28
+126,26-30,male,phd,Physical Sciences,Asian,5,5,5,5,5,5,5,35
+127,26-30,female,phd,Physical Sciences,White,5,4,4,5,4,5,5,32
+128,31-35,male,phd,Physical Sciences,Asian,5,4,4,5,5,4,3,30
+129,31-35,female,phd,Life Sciences,Asian,5,5,3,4,4,5,5,31
+130,31-35,male,phd,Life Sciences,Asian,5,4,4,5,4,5,4,31
+131,36-40,na,phd,Life Sciences,Other,5,4,4,5,5,4,5,32
+132,26-30,male,phd,Life Sciences,African,4,4,3,5,4,4,4,28
+133,31-35,male,phd,Life Sciences,African,4,2,4,5,4,3,4,26
+134,31-35,female,phd,Life Sciences,Asian,3,4,4,4,3,3,3,24
+135,31-35,male,phd,Engineering,Asian,3,3,3,3,3,3,3,21
+136,26-30,female,phd,Physical Sciences,Asian,3,1,3,5,2,4,4,22
+137,31-35,female,phd,Life Sciences,Asian,5,5,5,3,4,4,3,29
+138,31-35,female,phd,Life Sciences,White,2,2,2,5,3,5,3,22
+139,26-30,male,phd,Engineering,Asian,2,2,2,2,2,2,2,14
+140,26-30,female,master,Engineering,Asian,5,5,5,5,5,5,5,35
+141,31-35,female,phd,Life Sciences,Asian,5,4,3,3,4,4,3,26
+142,26-30,male,master,Engineering,Asian,3,3,3,4,3,4,4,24
+143,26-30,male,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+144,26-30,male,master,Engineering,Asian,3,4,4,3,4,4,4,26
+145,36-40,male,phd,Life Sciences,Asian,4,4,4,4,4,4,4,28
+146,36-40,female,phd,Life Sciences,Other,5,4,5,4,3,3,2,26
+147,31-35,male,phd,Engineering,Asian,3,3,3,4,5,5,4,27
+148,26-30,female,master,Engineering,White,5,5,5,5,3,5,4,32
+149,31-35,male,phd,Computer Science,Asian,3,5,5,5,3,3,3,27
+150,31-35,male,phd,Computer Science,Asian,5,4,4,5,4,4,5,31
+151,36-40,male,phd,Life Sciences,African,5,5,5,5,3,1,3,27
+152,41-45,male,phd,Computer Science,Other,4,3,5,5,4,4,5,30
+153,26-30,male,master,Computer Science,Asian,3,3,4,4,3,3,2,22
+154,26-30,female,master,Engineering,Asian,3,2,2,4,4,3,3,21
+155,31-35,female,phd,Engineering,Other,4,2,3,5,5,4,4,27
+156,31-35,male,phd,Life Sciences,Asian,4,4,4,5,4,4,5,30
+157,36-40,female,phd,Life Sciences,Asian,5,5,5,5,4,4,4,32
+158,36-40,male,phd,Physical Sciences,Asian,4,4,3,4,4,4,4,27
+159,36-40,female,phd,Life Sciences,Asian,4,4,4,3,4,4,4,27
+160,31-35,female,phd,Life Sciences,Asian,4,5,4,5,4,4,4,30
+161,31-35,male,phd,Engineering,Asian,5,5,5,5,5,5,5,35
+162,31-35,female,phd,Physical Sciences,Asian,5,5,3,5,3,3,4,28
+163,31-35,male,phd,Engineering,Asian,4,5,4,3,3,3,5,27
+164,26-30,female,master,Engineering,Asian,5,5,5,5,5,5,5,35
+165,26-30,female,phd,Life Sciences,Asian,5,4,4,5,5,5,4,32
+166,31-35,female,phd,Physical Sciences,Asian,3,4,5,3,3,3,3,24
+167,36-40,female,phd,Life Sciences,White,3,3,3,4,3,3,3,22
+168,26-30,male,master,Mathematics,Asian,4,4,3,4,3,4,3,25
+169,26-30,female,master,Engineering,Asian,5,5,5,4,5,5,5,34
+170,26-30,male,phd,Mathematics,Asian,4,4,4,4,3,3,3,25
+171,31-35,female,phd,Mathematics,White,3,3,3,3,3,3,3,21
+172,31-35,male,phd,Physical Sciences,Asian,4,2,3,4,3,4,4,24
+173,26-30,male,master,Engineering,Asian,4,3,4,5,5,5,3,29
+174,26-30,male,master,Engineering,Asian,5,5,4,3,5,3,5,30
+175,26-30,female,master,Engineering,Asian,5,5,5,5,5,5,5,35
+176,26-30,male,phd,Engineering,Asian,4,4,3,5,5,4,4,29
+177,31-35,male,phd,Engineering,Asian,2,2,2,4,2,1,3,16
+178,31-35,female,master,Mathematics,Asian,3,3,4,2,4,5,3,24
+179,26-30,female,master,Engineering,Asian,5,5,5,3,5,4,4,31
+180,26-30,male,phd,Engineering,Other,5,5,5,5,4,2,4,30
+181,26-30,male,master,Engineering,Asian,4,4,4,4,5,5,5,31
+182,26-30,female,master,Engineering,Asian,5,4,4,5,5,5,4,32
+183,26-30,male,master,Engineering,Asian,5,3,4,4,5,5,5,31
+184,26-30,female,master,Engineering,Asian,5,4,3,3,5,5,3,28
+185,26-30,female,master,Engineering,Other,4,5,4,3,4,4,4,28
+186,26-30,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+187,31-35,female,phd,Engineering,Other,4,4,3,5,3,4,5,28
+188,26-30,male,master,Engineering,Asian,3,4,4,5,4,5,4,29
+189,26-30,male,master,Engineering,Asian,5,5,5,4,4,5,5,33
+190,26-30,male,master,Engineering,Asian,4,4,4,5,3,4,4,28
+191,31-35,male,phd,Engineering,White,4,3,3,4,3,4,3,24
+192,26-30,female,master,Life Sciences,Asian,4,3,4,5,5,4,3,28
+193,26-30,female,master,Engineering,Asian,4,4,4,4,4,4,4,28
+194,26-30,female,phd,Engineering,White,3,3,3,3,3,3,3,21
+195,26-30,male,phd,Engineering,Asian,4,5,4,5,5,5,5,33
+196,36-40,male,phd,Mathematics,Asian,5,4,5,5,5,5,5,34
+197,31-35,female,phd,Physical Sciences,Other,4,4,4,3,4,4,4,27
+198,31-35,male,phd,Mathematics,Asian,5,5,5,5,5,5,5,35
+199,36-40,female,phd,Life Sciences,Asian,5,3,4,4,4,4,4,28
+200,36-40,male,phd,Engineering,White,5,5,5,5,5,5,5,35
+201,31-35,female,master,Life Sciences,White,3,3,3,3,3,3,3,21
+202,26-30,female,master,Mathematics,White,3,4,3,5,3,3,2,23
+203,31-35,male,phd,Physical Sciences,Other,2,1,2,5,3,3,2,18
+204,36-40,female,phd,Physical Sciences,Other,5,3,3,5,5,5,3,29
+205,26-30,male,phd,Mathematics,Asian,3,3,3,3,3,3,3,21
+206,31-35,male,phd,Mathematics,Other,1,2,4,4,2,4,4,21
+207,31-35,female,phd,Life Sciences,White,3,3,3,3,3,3,3,21
+208,36-40,male,phd,Life Sciences,Other,2,3,2,5,2,3,3,20
+209,31-35,female,phd,Physical Sciences,Asian,5,3,3,4,3,3,3,24
+210,31-35,male,phd,Life Sciences,Asian,4,4,4,4,5,4,3,28
+211,26-30,male,phd,Mathematics,Asian,3,3,3,5,3,5,3,25
+212,26-30,female,master,Physical Sciences,White,3,3,3,3,3,3,3,21
+213,26-30,male,master,Engineering,Asian,4,5,3,5,4,5,4,30
+214,26-30,female,phd,Mathematics,Asian,4,5,4,4,4,4,3,28
+215,31-35,male,phd,Physical Sciences,Asian,4,4,5,5,5,4,4,31
+216,41-45,male,phd,Life Sciences,White,5,3,4,3,4,5,3,27
+217,26-30,female,phd,Mathematics,White,2,3,2,4,3,4,4,22
+218,26-30,male,phd,Mathematics,Asian,4,4,4,5,4,5,3,29
+219,26-30,male,phd,Mathematics,White,3,3,3,3,3,3,3,21
+220,26-30,female,master,Engineering,Other,4,3,3,5,3,3,5,26
+221,26-30,female,master,Engineering,Asian,5,2,4,4,4,3,4,26
+222,26-30,male,phd,Computer Science,Asian,3,4,4,3,3,3,3,23
+223,31-35,female,phd,Life Sciences,Other,3,4,4,4,3,4,4,26
+224,26-30,male,master,Engineering,Asian,4,4,4,5,5,5,5,32
+225,26-30,male,master,Computer Science,Asian,4,4,3,4,4,4,5,28
+226,26-30,female,master,Computer Science,Asian,3,4,4,4,4,4,4,27
+227,26-30,male,master,Computer Science,Asian,4,4,4,3,4,4,4,27
+228,26-30,female,master,Engineering,Asian,3,4,4,5,4,5,3,28
+229,31-35,male,phd,Engineering,Asian,3,4,4,3,3,3,4,24
+230,26-30,male,master,Engineering,Asian,3,4,3,4,5,5,5,29
+231,26-30,male,master,Computer Science,Asian,3,2,4,4,3,3,4,23
+232,31-35,female,master,Engineering,White,4,2,3,5,3,3,3,23
+233,26-30,male,master,Computer Science,Asian,3,3,3,5,4,4,4,26
+234,31-35,male,master,Computer Science,Asian,5,5,5,3,5,5,5,33
+235,26-30,male,master,Computer Science,Other,3,5,5,4,4,3,4,28
+236,26-30,male,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+237,26-30,female,master,Computer Science,Asian,4,3,3,4,3,3,2,22
+238,26-30,male,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+239,31-35,female,master,Engineering,Other,3,3,3,5,3,3,3,23
+240,26-30,male,master,Engineering,Asian,4,3,4,4,5,5,4,29
+241,26-30,female,master,Engineering,Asian,5,5,5,5,5,5,5,35
+242,26-30,male,master,Computer Science,Asian,3,3,3,4,3,3,3,22
+243,26-30,male,master,Computer Science,Asian,5,4,5,5,4,4,4,31
+244,31-35,male,phd,Engineering,Asian,3,4,4,4,4,4,4,27
+245,31-35,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+246,26-30,male,master,Engineering,Asian,5,3,4,3,2,3,3,23
+247,26-30,male,phd,Computer Science,Other,3,3,4,5,3,3,4,25
+248,26-30,male,master,Computer Science,Asian,3,4,4,4,4,5,3,27
+249,26-30,female,master,Life Sciences,Asian,3,4,3,5,5,3,3,26
+250,31-35,male,master,Engineering,Asian,4,3,4,5,4,4,3,27
+251,26-30,male,master,Engineering,Asian,3,4,4,4,4,3,4,26
+252,31-35,male,phd,Engineering,White,3,3,3,2,3,4,3,21
+253,26-30,female,master,Computer Science,Asian,4,3,4,3,4,3,4,25
+254,26-30,male,master,Engineering,Asian,4,4,5,5,3,3,4,28
+255,31-35,na,master,Engineering,Asian,4,2,2,3,2,3,2,18
+256,31-35,male,phd,Engineering,Other,1,3,2,1,4,1,2,14
+257,26-30,male,master,Life Sciences,Asian,2,3,3,4,4,4,3,23
+258,26-30,female,master,Computer Science,Asian,4,2,4,3,3,3,3,22
+259,26-30,male,master,Engineering,Asian,4,5,5,5,4,4,5,32
+260,31-35,female,master,Engineering,Asian,4,4,4,4,5,4,3,28
+261,31-35,male,master,Computer Science,Asian,5,3,4,5,3,4,3,27
+262,26-30,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+263,26-30,male,master,Computer Science,Asian,5,5,5,3,3,3,3,27
+264,26-30,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+265,26-30,male,master,Engineering,Asian,3,4,4,4,3,3,3,24
+266,36-40,female,master,Computer Science,Asian,5,4,3,5,4,4,3,28
+267,26-30,female,master,Engineering,Asian,4,4,5,5,4,5,5,32
+268,26-30,female,master,Life Sciences,Asian,4,4,4,5,4,4,4,29
+269,31-35,male,phd,Engineering,Other,3,4,2,5,3,3,3,23
+270,26-30,male,master,Computer Science,Asian,5,5,5,3,3,3,3,27
+271,26-30,male,master,Engineering,Asian,5,4,4,2,4,5,3,27
+272,26-30,male,master,Engineering,Asian,5,4,3,3,4,4,4,27
+273,36-40,male,master,Computer Science,Asian,4,3,4,4,4,4,4,27
+274,26-30,male,master,Engineering,Asian,4,4,4,5,3,4,4,28
+275,26-30,male,master,Computer Science,Asian,3,5,4,4,4,5,4,29
+276,26-30,female,phd,Mathematics,Asian,3,2,4,5,3,3,4,24
+277,26-30,male,master,Engineering,Asian,4,3,4,4,4,4,4,27
+278,26-30,male,master,Engineering,White,4,4,3,4,4,4,2,25
+279,18-25,female,master,Engineering,Other,4,4,3,4,4,4,4,27
+280,26-30,female,master,Engineering,Asian,4,4,3,2,4,4,4,25
+281,36-40,female,phd,Mathematics,Asian,3,3,5,4,4,4,3,26
+282,26-30,male,master,Computer Science,Asian,3,3,3,3,4,4,4,24
+283,26-30,male,master,Engineering,Asian,4,4,4,5,3,5,5,30
+284,26-30,male,master,Engineering,Asian,3,4,4,4,4,5,5,29
+285,26-30,male,master,Engineering,Asian,1,3,4,3,4,4,3,22
+286,26-30,male,master,Computer Science,Asian,4,4,4,4,4,4,4,28
+287,26-30,male,master,Computer Science,Asian,4,1,3,4,4,4,4,24
+288,26-30,male,phd,Engineering,Asian,5,5,3,5,4,4,3,29
+289,26-30,female,master,Engineering,Asian,4,4,4,4,3,4,4,27
+290,26-30,female,master,Engineering,Asian,4,4,4,4,4,4,4,28
+291,31-35,male,master,Engineering,Asian,2,3,3,3,2,2,3,18
+292,36-40,male,phd,Life Sciences,White,4,4,4,5,4,5,4,30
+293,26-30,male,master,Engineering,Asian,3,4,4,5,3,4,4,27
+294,26-30,male,master,Engineering,Asian,4,4,5,4,3,3,3,26
+295,31-35,male,master,Engineering,Asian,5,4,3,3,4,4,5,28
+296,26-30,female,phd,Engineering,Asian,4,5,4,5,4,5,4,31
+297,31-35,male,phd,Engineering,Other,3,4,4,4,3,3,3,24
+298,31-35,male,master,Mathematics,Asian,4,4,4,3,4,3,4,26
+299,31-35,male,phd,Computer Science,Asian,2,3,2,4,4,2,4,21
+300,31-35,male,phd,Engineering,Asian,4,4,4,5,4,4,4,29
+301,31-35,male,phd,Computer Science,Asian,4,3,4,5,4,4,3,27
+302,31-35,male,phd,Computer Science,Asian,4,4,4,5,3,3,4,27
+303,31-35,male,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+304,31-35,male,phd,Engineering,Other,3,3,3,3,3,3,3,21
+305,31-35,male,phd,Engineering,African,3,3,4,4,3,2,4,23
+306,36-40,male,phd,Engineering,Asian,3,4,3,3,3,4,4,24
+307,31-35,male,phd,Life Sciences,Asian,3,3,2,3,3,4,4,22
+308,31-35,male,phd,Physical Sciences,Asian,3,3,3,3,3,3,3,21
+309,26-30,male,phd,Engineering,Asian,3,3,4,5,4,4,4,27
+310,26-30,female,phd,Engineering,Other,5,5,5,5,5,5,3,33
+311,26-30,male,master,Engineering,Asian,4,5,3,3,4,5,5,29
+312,36-40,female,phd,Life Sciences,Other,5,5,5,5,5,5,5,35
+313,<18,male,phd,Computer Science,Other,2,5,5,4,2,2,1,21
+314,41-45,male,phd,Mathematics,Asian,5,5,3,5,5,5,5,33
+315,36-40,female,phd,Engineering,Asian,5,3,3,4,4,3,3,25
+316,31-35,female,phd,Life Sciences,White,4,4,3,4,3,4,4,26
+317,31-35,female,phd,Life Sciences,Other,4,5,4,5,5,5,5,33
+318,26-30,male,master,Engineering,Other,3,3,3,1,3,4,3,20
+319,26-30,male,phd,Engineering,Asian,3,3,5,4,5,5,5,30
+320,26-30,male,phd,Engineering,Asian,5,5,5,3,5,5,5,33
+321,31-35,female,master,Engineering,African,4,5,3,3,4,3,3,25
+322,26-30,male,phd,Engineering,Asian,4,4,5,5,5,5,4,32
+323,31-35,male,phd,Computer Science,Asian,4,4,4,4,3,3,3,25
+324,31-35,female,phd,Mathematics,Asian,4,4,4,2,3,4,4,25
+325,31-35,male,phd,Physical Sciences,Asian,3,3,4,4,3,5,4,26
+326,26-30,female,phd,Mathematics,White,2,2,3,3,3,3,3,19
+327,31-35,female,phd,Engineering,Asian,4,3,3,3,4,4,5,26
+328,31-35,male,phd,Life Sciences,Asian,4,4,4,4,3,3,3,25
+329,31-35,male,phd,Physical Sciences,Asian,5,4,3,4,4,3,3,26
+330,31-35,male,master,Engineering,Asian,2,3,3,4,3,3,3,21
+331,26-30,male,phd,Engineering,Asian,5,4,4,4,5,4,3,29
+332,31-35,male,master,Engineering,Asian,5,5,4,5,3,3,3,28
+333,26-30,male,phd,Engineering,Asian,4,5,4,4,4,4,4,29
+334,31-35,male,phd,Engineering,Asian,4,4,5,3,4,4,4,28
+335,26-30,male,master,Engineering,Asian,3,5,3,5,5,5,3,29
+336,31-35,female,phd,Mathematics,Asian,3,1,5,5,3,3,3,23
+337,31-35,female,phd,Mathematics,Asian,4,4,4,3,4,4,4,27
+338,31-35,female,phd,Engineering,Other,3,2,2,5,3,4,3,22
+339,41-45,female,phd,Life Sciences,Asian,5,4,5,4,5,4,4,31
+340,41-45,male,phd,Physical Sciences,Asian,5,3,1,5,5,1,2,22
+341,36-40,male,phd,Computer Science,Other,3,3,3,4,3,3,4,23
+342,31-35,female,phd,Physical Sciences,Asian,5,3,3,3,4,4,4,26
+343,31-35,female,phd,Mathematics,Other,3,3,3,4,3,3,3,22
+344,31-35,female,master,Life Sciences,Other,4,4,5,5,3,4,5,30
+345,26-30,male,phd,Computer Science,White,4,2,2,5,3,5,3,24
+346,31-35,male,phd,Life Sciences,Other,5,3,3,5,3,3,5,27
+347,31-35,male,phd,Physical Sciences,Asian,5,3,4,5,4,4,3,28
+348,31-35,male,master,Computer Science,Asian,2,3,1,2,2,4,1,15
+349,26-30,male,phd,Engineering,Asian,5,5,5,5,5,5,5,35
+350,26-30,male,phd,Physical Sciences,Asian,3,4,3,2,3,3,3,21
+351,31-35,male,phd,Physical Sciences,Asian,5,4,5,5,5,4,4,32
+352,31-35,female,phd,Computer Science,White,2,2,3,4,3,4,3,21
+353,26-30,female,phd,Life Sciences,Asian,4,2,5,3,3,2,3,22
+354,26-30,male,phd,Life Sciences,Asian,5,4,4,5,5,4,5,32
+355,26-30,male,phd,Engineering,Asian,4,4,4,5,5,5,5,32
+356,26-30,male,master,Engineering,Asian,4,4,4,3,3,3,4,25
+357,31-35,female,master,Mathematics,Asian,5,4,5,5,5,4,4,32
+358,31-35,male,phd,Life Sciences,Asian,4,4,3,3,3,3,4,24
+359,31-35,male,phd,Physical Sciences,Asian,4,4,4,3,3,3,3,24
+360,31-35,male,phd,Computer Science,Asian,3,4,4,3,3,4,3,24
+361,31-35,male,phd,Physical Sciences,Other,3,4,5,4,3,3,3,25
+362,31-35,male,phd,Life Sciences,White,2,1,2,3,3,3,3,17
+363,26-30,female,master,Life Sciences,Asian,3,4,4,5,4,2,2,24
+364,26-30,female,master,Engineering,Asian,3,4,4,3,3,3,5,25
+365,31-35,male,phd,Life Sciences,Asian,5,5,5,5,4,4,4,32
+366,31-35,female,phd,Engineering,Other,4,5,5,4,4,5,5,32
+367,26-30,female,master,Engineering,Asian,4,4,4,3,4,4,4,27
+368,31-35,female,phd,Physical Sciences,Asian,5,4,3,5,4,4,5,30
+369,26-30,male,master,Engineering,Asian,4,4,4,4,4,4,4,28
+370,36-40,female,phd,Engineering,Other,4,2,4,5,4,4,3,26
+371,31-35,female,phd,Physical Sciences,Asian,5,3,3,5,5,4,3,28
+372,31-35,male,phd,Mathematics,Asian,4,5,5,2,4,4,4,28
+373,31-35,male,phd,Engineering,Asian,3,4,4,5,5,5,3,29
+374,26-30,male,master,Engineering,Asian,3,4,3,3,4,4,3,24
+375,36-40,male,phd,Physical Sciences,Asian,4,4,4,2,4,2,3,23
+376,26-30,female,master,Engineering,Asian,4,3,3,3,3,3,3,22
+377,31-35,male,phd,Computer Science,Asian,5,5,5,3,3,3,3,27
+378,31-35,male,phd,Computer Science,Other,3,3,3,5,4,4,4,26
+379,26-30,male,master,Engineering,Asian,4,4,3,5,4,4,5,29
+380,26-30,male,master,Engineering,Other,5,4,5,4,4,5,5,32
+381,26-30,male,master,Engineering,Asian,4,5,5,4,4,4,4,30
+382,31-35,female,phd,Engineering,White,4,3,3,3,3,4,4,24
+383,26-30,male,phd,Engineering,Asian,3,2,4,4,3,2,3,21
+384,26-30,female,master,Engineering,White,5,3,3,5,3,3,2,24
+385,31-35,female,phd,Engineering,Asian,4,4,4,4,4,4,4,28
+386,31-35,male,phd,Engineering,Asian,4,4,4,5,5,5,5,32
+387,31-35,male,phd,Engineering,Other,4,2,3,5,3,4,4,25
+388,31-35,male,phd,Engineering,Asian,4,3,4,5,4,4,3,27
+389,26-30,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+390,36-40,male,phd,Life Sciences,Asian,5,5,4,5,5,5,5,34
+391,26-30,male,master,Engineering,Asian,3,4,4,4,4,4,4,27
+392,31-35,male,phd,Engineering,Asian,5,5,5,5,5,5,5,35
+393,26-30,female,master,Life Sciences,Asian,3,4,4,4,5,3,2,25
+394,36-40,male,phd,Computer Science,Asian,5,4,4,4,5,3,4,29
+395,26-30,male,phd,Engineering,Asian,5,4,3,3,4,4,4,27
+396,26-30,male,phd,Physical Sciences,White,4,3,3,5,3,4,4,26
+397,26-30,male,phd,Engineering,Asian,4,4,4,5,5,5,5,32
+398,26-30,male,phd,Physical Sciences,Asian,4,3,4,4,3,4,3,25
+399,26-30,male,phd,Mathematics,White,3,4,4,5,5,5,3,29
+400,26-30,male,phd,Computer Science,Asian,3,5,5,2,3,3,3,24
+401,26-30,male,master,Engineering,Asian,3,4,4,2,3,4,3,23
+402,31-35,male,phd,Physical Sciences,Other,3,3,4,4,3,3,3,23
+403,26-30,male,master,Engineering,Asian,4,2,4,5,5,5,5,30
+404,26-30,male,phd,Physical Sciences,Asian,2,2,3,3,2,4,3,19
+405,31-35,na,phd,Computer Science,Asian,5,5,5,5,5,5,5,35
+406,31-35,female,phd,Engineering,Asian,4,3,3,3,3,4,2,22
+407,26-30,male,phd,Physical Sciences,Asian,5,4,4,5,5,4,5,32
+408,26-30,female,master,Engineering,Asian,4,4,4,4,4,4,4,28
+409,31-35,male,phd,Engineering,White,3,3,4,4,3,4,4,25
+410,31-35,female,phd,Engineering,Asian,1,1,3,1,1,3,3,13
+411,31-35,female,phd,Engineering,Other,5,3,3,4,4,2,2,23
+412,31-35,female,phd,Life Sciences,Asian,4,4,4,5,4,4,1,26
+413,26-30,female,master,Mathematics,Asian,5,5,5,5,5,5,5,35
+414,36-40,male,phd,Engineering,Asian,4,4,4,5,5,5,5,32
+415,26-30,male,phd,Engineering,Asian,4,4,4,5,4,5,3,29
+416,26-30,female,master,Mathematics,Asian,5,4,4,5,4,4,4,30
+417,26-30,female,master,Engineering,Asian,4,5,4,4,4,5,3,29
+418,31-35,female,phd,Physical Sciences,Asian,5,3,3,3,5,5,5,29
+419,31-35,male,phd,Mathematics,White,4,3,4,5,4,5,5,30
+420,31-35,male,phd,Engineering,Asian,3,3,3,4,3,3,4,23
+421,31-35,male,phd,Engineering,African,5,5,5,5,5,5,5,35
+422,31-35,male,master,Engineering,Asian,4,3,4,5,4,4,5,29
+423,26-30,male,master,Mathematics,Asian,4,4,4,4,4,3,2,25
+424,31-35,male,phd,Life Sciences,Asian,4,4,4,5,5,4,4,30
+425,26-30,male,phd,Engineering,Asian,5,5,4,5,3,4,3,29
+426,31-35,female,phd,Engineering,Other,3,3,3,4,3,3,3,22
+427,26-30,male,master,Life Sciences,Asian,3,5,4,5,3,2,2,24
+428,26-30,male,master,Computer Science,Asian,3,3,4,3,3,3,3,22
+429,26-30,female,master,Engineering,Asian,4,4,4,4,5,5,5,31
+430,26-30,male,master,Computer Science,Asian,3,4,4,5,3,4,4,27
+431,26-30,male,master,Computer Science,Asian,3,3,2,1,4,2,1,16
+432,31-35,na,phd,Computer Science,Asian,4,3,2,5,3,4,2,23
+433,26-30,male,master,Engineering,Asian,5,4,4,4,5,5,3,30
+434,26-30,na,master,Computer Science,Asian,3,2,4,5,3,3,1,21
+435,26-30,male,phd,Computer Science,Asian,4,3,3,5,4,4,4,27
+436,26-30,male,phd,Engineering,Asian,4,5,5,5,5,5,5,34
+437,26-30,male,master,Engineering,Asian,3,5,4,3,3,4,4,26
+438,31-35,female,phd,Life Sciences,Asian,5,3,4,5,3,3,2,25
+439,31-35,male,phd,Computer Science,Asian,5,5,5,3,3,5,5,31
+440,26-30,male,master,Computer Science,Asian,4,3,3,3,3,3,5,24
+441,26-30,male,master,Computer Science,Asian,4,3,5,5,4,5,4,30
+442,31-35,female,phd,Computer Science,Asian,5,5,5,5,5,5,5,35
+443,36-40,male,phd,Computer Science,Other,3,3,3,5,3,4,5,26
+444,36-40,male,phd,Computer Science,Asian,4,2,3,4,4,3,4,24
+445,26-30,male,master,Computer Science,Asian,3,3,4,5,4,4,4,27
+446,26-30,male,master,Engineering,Asian,3,3,4,4,4,5,5,28
+447,26-30,male,phd,Mathematics,White,5,3,4,5,3,4,5,29
+448,31-35,female,phd,Physical Sciences,Asian,4,3,3,5,4,3,3,25
+449,31-35,male,phd,Computer Science,Asian,5,4,5,5,5,4,4,32
+450,36-40,male,phd,Engineering,Asian,5,3,3,4,3,3,2,23
+451,26-30,male,phd,Engineering,Asian,4,4,4,5,5,3,3,28
+452,26-30,female,master,Engineering,Asian,5,5,5,5,5,5,5,35
+453,26-30,female,master,Engineering,Asian,1,4,4,4,2,2,4,21
+454,26-30,female,master,Computer Science,Asian,3,5,4,3,4,5,3,27
+455,26-30,male,master,Computer Science,Asian,4,4,4,4,4,4,4,28
+456,31-35,female,phd,Life Sciences,White,5,4,4,5,3,5,3,29
+457,26-30,male,master,Computer Science,Asian,3,5,4,4,3,4,4,27
+458,26-30,male,phd,Physical Sciences,White,4,3,4,3,3,5,4,26
+459,26-30,male,master,Computer Science,Asian,3,3,5,4,3,3,3,24
+460,31-35,female,phd,Engineering,Other,3,2,2,5,3,4,4,23
+461,31-35,male,phd,Computer Science,Asian,4,4,4,4,4,4,4,28
+462,31-35,female,master,Engineering,Other,3,5,4,3,3,5,3,26
+463,31-35,male,master,Engineering,Other,2,3,2,4,3,3,3,20
+464,26-30,female,phd,Physical Sciences,Asian,4,3,3,3,3,3,2,21
+465,26-30,female,phd,Mathematics,Asian,4,3,3,3,4,4,4,25
+466,36-40,male,phd,Life Sciences,White,3,3,3,4,3,4,3,23
+467,31-35,male,master,Engineering,Asian,5,5,3,5,5,5,5,33
+468,26-30,female,phd,Physical Sciences,Asian,5,5,5,5,5,5,4,34
+469,31-35,female,phd,Physical Sciences,White,3,2,2,3,3,5,4,22
+470,36-40,male,phd,Engineering,Asian,5,5,4,5,4,5,4,32
+471,26-30,female,phd,Physical Sciences,Asian,4,5,4,3,4,5,4,29
+472,31-35,male,phd,Engineering,Asian,5,5,4,5,5,5,5,34
+473,31-35,na,phd,Engineering,Asian,4,4,4,3,4,3,4,26
+474,26-30,male,phd,Engineering,Asian,5,5,5,3,5,5,5,33
+475,31-35,male,phd,Computer Science,Asian,1,3,3,2,3,3,2,17
+476,26-30,female,phd,Physical Sciences,White,3,3,3,4,3,4,4,24
+477,36-40,female,phd,Computer Science,White,4,3,3,3,3,5,3,24
+478,26-30,female,phd,Engineering,Asian,4,5,5,5,5,4,3,31
+479,31-35,female,phd,Life Sciences,Asian,4,4,4,5,5,5,5,32
+480,31-35,male,phd,Engineering,Asian,3,3,3,5,3,4,4,25
+481,26-30,male,phd,Engineering,Asian,4,4,4,3,3,3,3,24
+482,31-35,male,phd,Mathematics,Asian,4,4,4,4,4,4,4,28
+483,31-35,male,phd,Life Sciences,Asian,3,4,3,3,3,3,4,23
+484,31-35,female,phd,Life Sciences,Asian,5,4,4,4,4,4,4,29
+485,26-30,female,phd,Physical Sciences,Asian,4,4,5,5,3,5,5,31
+486,31-35,male,phd,Computer Science,Asian,5,3,3,3,4,4,3,25
+487,26-30,male,master,Engineering,Asian,4,4,3,3,3,3,3,23
+488,31-35,female,phd,Life Sciences,Asian,3,3,3,3,3,3,3,21
+489,26-30,male,phd,Mathematics,Asian,5,5,5,5,5,5,5,35
+490,31-35,male,phd,Computer Science,Asian,4,4,4,3,4,4,4,27
+491,36-40,male,phd,Life Sciences,African,5,5,5,5,5,5,5,35
+492,26-30,female,phd,Physical Sciences,Asian,4,4,4,3,3,4,3,25
+493,31-35,female,phd,Life Sciences,Other,3,3,3,5,3,3,3,23
+494,26-30,male,phd,Physical Sciences,Asian,5,5,5,5,5,5,5,35
+495,26-30,male,phd,Mathematics,White,3,3,3,2,3,3,3,20
+496,26-30,male,master,Engineering,Asian,4,5,4,4,3,4,2,26
+497,26-30,female,phd,Life Sciences,Other,3,3,4,5,4,5,5,29
+498,36-40,male,phd,Life Sciences,Asian,4,1,3,3,3,3,2,19
+499,31-35,male,phd,Physical Sciences,White,4,2,4,4,3,1,3,21
+500,36-40,female,phd,Engineering,Asian,4,4,5,5,3,3,4,28
+501,26-30,male,phd,Mathematics,Asian,4,4,4,3,4,4,5,28
+502,26-30,male,phd,Life Sciences,Asian,5,4,3,4,3,4,2,25
+503,31-35,female,phd,Engineering,Asian,3,3,4,4,3,3,2,22
+504,31-35,female,phd,Life Sciences,African,5,5,5,5,5,4,4,33
+505,31-35,female,phd,Mathematics,Asian,4,3,4,3,4,4,4,26
+506,26-30,male,phd,Physical Sciences,Asian,3,3,3,5,4,5,3,26
+507,31-35,male,phd,Physical Sciences,Asian,4,3,3,5,4,3,3,25
+508,31-35,male,phd,Engineering,Asian,5,4,4,4,4,3,3,27
+509,36-40,female,phd,Physical Sciences,White,3,3,3,4,3,3,3,22
+510,26-30,male,phd,Mathematics,Asian,5,4,4,5,5,4,3,30
+511,31-35,male,phd,Mathematics,Asian,4,4,4,4,3,3,4,26
+512,31-35,male,phd,Physical Sciences,Asian,4,4,4,5,5,4,4,30
+513,36-40,female,phd,Engineering,Asian,5,4,5,5,5,5,5,34
+514,31-35,female,phd,Life Sciences,Asian,4,4,4,5,4,4,4,29
+515,26-30,male,phd,Physical Sciences,Asian,4,4,4,5,4,3,2,26
+516,31-35,na,phd,Mathematics,Other,2,5,5,4,4,4,1,25
+517,31-35,male,master,Engineering,Asian,5,5,5,5,5,4,4,33
+518,31-35,male,master,Engineering,Asian,3,4,3,4,4,3,4,25
+519,31-35,male,phd,Engineering,Asian,4,4,4,5,4,5,5,31
+520,26-30,female,phd,Life Sciences,Asian,3,4,3,4,5,5,3,27
+521,26-30,male,phd,Physical Sciences,Asian,3,5,4,5,4,3,4,28
+522,36-40,male,phd,Physical Sciences,Asian,5,5,5,5,5,5,5,35
+523,31-35,male,phd,Physical Sciences,Asian,4,5,5,5,5,5,4,33
+524,31-35,female,phd,Computer Science,Asian,5,3,3,5,3,4,3,26
+525,26-30,na,phd,Physical Sciences,Asian,5,5,4,5,5,5,5,34
+526,36-40,male,phd,Engineering,Asian,4,4,3,3,4,4,4,26
+527,31-35,female,phd,Physical Sciences,Asian,4,5,4,3,3,3,4,26
+528,26-30,female,phd,Life Sciences,African,5,5,5,5,5,5,5,35
+529,36-40,female,phd,Computer Science,Asian,5,5,4,4,5,4,3,30
+530,26-30,male,phd,Mathematics,Asian,3,3,3,4,3,3,3,22
+531,36-40,male,phd,Mathematics,Other,5,5,4,5,5,5,4,33
+532,26-30,male,phd,Engineering,Asian,3,3,3,1,4,1,2,17
+533,31-35,female,phd,Mathematics,Asian,4,4,4,3,3,4,5,27
+534,26-30,female,phd,Computer Science,Asian,4,3,3,5,3,5,5,28
+535,31-35,male,phd,Engineering,Asian,3,4,4,3,3,3,3,23
+536,26-30,female,master,Life Sciences,Asian,3,3,3,4,2,2,2,19
+537,31-35,female,master,Mathematics,Asian,5,4,4,3,4,4,3,27
+538,26-30,female,phd,Mathematics,Other,3,4,3,5,3,4,3,25
+539,26-30,male,phd,Computer Science,Other,4,5,4,3,4,4,5,29
+540,31-35,male,phd,Physical Sciences,Asian,3,3,3,3,3,4,3,22
+541,31-35,male,phd,Engineering,Other,3,3,3,5,4,5,3,26
+542,31-35,female,phd,Life Sciences,Asian,4,4,4,5,5,5,5,32
+543,31-35,female,phd,Life Sciences,Other,4,4,4,5,3,3,4,27
+544,31-35,female,phd,Engineering,Asian,5,5,4,5,5,5,4,33
+545,31-35,male,phd,Life Sciences,Asian,3,3,5,5,4,4,5,29
+546,26-30,male,phd,Engineering,Asian,4,4,4,3,4,5,5,29
+547,26-30,na,phd,Life Sciences,Other,3,2,3,5,4,4,3,24
+548,31-35,male,phd,Physical Sciences,Asian,3,3,2,4,3,3,3,21
+549,26-30,male,master,Computer Science,White,4,4,3,3,3,4,3,24
+550,26-30,male,phd,Mathematics,White,3,2,3,3,3,3,3,20
+551,41-45,male,master,Computer Science,White,3,3,3,3,3,3,2,20
+552,26-30,male,phd,Physical Sciences,White,5,5,5,5,5,5,5,35
+553,41-45,female,phd,Life Sciences,Other,2,2,3,5,3,5,5,25
+554,31-35,male,master,Computer Science,Asian,4,4,4,4,4,4,4,28
+555,26-30,female,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+556,26-30,male,master,Computer Science,Asian,5,4,5,3,5,5,4,31
+557,31-35,female,phd,Life Sciences,Asian,5,4,4,4,4,4,4,29
+558,26-30,male,phd,Computer Science,White,3,3,4,2,2,3,4,21
+559,31-35,female,phd,Life Sciences,White,4,3,5,5,3,3,3,26
+560,31-35,female,phd,Physical Sciences,Asian,4,3,3,4,3,4,3,24
+561,36-40,male,phd,Computer Science,Asian,3,3,3,3,3,3,3,21
+562,36-40,male,phd,Physical Sciences,White,4,4,3,3,5,4,3,26
+563,26-30,female,phd,Mathematics,Asian,3,1,4,2,4,2,2,18
+564,26-30,male,phd,Physical Sciences,White,3,3,4,3,3,4,3,23
+565,26-30,male,phd,Mathematics,Asian,3,3,5,4,3,3,3,24
+566,26-30,female,phd,Life Sciences,White,4,4,4,5,4,4,5,30
+567,26-30,male,phd,Engineering,Asian,4,4,4,2,4,4,4,26
+568,31-35,female,phd,Physical Sciences,Asian,3,3,3,3,3,4,4,23
+569,31-35,male,phd,Engineering,Asian,4,3,3,3,4,5,4,26
+570,31-35,male,phd,Physical Sciences,Asian,5,4,3,4,3,2,4,25
+571,26-30,female,master,Engineering,Asian,4,4,4,5,4,4,4,29
+572,36-40,male,phd,Engineering,Asian,4,4,4,4,4,4,4,28
+573,26-30,male,phd,Mathematics,Other,3,2,4,3,3,3,5,23
+574,26-30,male,master,Engineering,Other,3,5,4,5,3,4,3,27
+575,26-30,male,phd,Engineering,Asian,3,4,4,5,3,3,3,25
+576,26-30,female,master,Life Sciences,Other,3,3,5,4,4,5,2,26
+577,26-30,male,phd,Engineering,Asian,4,5,5,3,5,5,5,32
+578,31-35,male,phd,Engineering,White,3,2,2,5,3,5,5,25
+579,26-30,female,phd,Mathematics,White,3,3,3,3,3,3,3,21
+580,26-30,male,master,Computer Science,Asian,1,3,3,3,3,3,3,19
+581,26-30,male,master,Engineering,Asian,4,4,4,3,3,3,3,24
+582,26-30,female,master,Engineering,Asian,2,4,3,4,3,3,4,23
+583,31-35,male,phd,Engineering,Asian,3,3,4,3,3,5,4,25
+584,26-30,male,master,Engineering,Asian,5,5,4,4,5,5,4,32
+585,26-30,female,master,Engineering,Asian,5,4,3,4,3,4,3,26
+586,26-30,male,master,Engineering,Asian,4,4,4,5,5,5,4,31
+587,36-40,male,phd,Life Sciences,Asian,4,5,4,5,4,5,5,32
+588,26-30,female,phd,Engineering,Other,2,4,3,3,3,4,2,21
+589,26-30,male,master,Engineering,Asian,5,3,4,4,4,4,3,27
+590,36-40,male,phd,Life Sciences,African,4,5,5,5,3,5,3,30
+591,31-35,male,phd,Engineering,Asian,5,5,5,5,5,5,5,35
+592,26-30,male,phd,Engineering,Asian,5,4,4,3,5,4,2,27
+593,31-35,male,phd,Life Sciences,Asian,5,4,3,5,5,5,5,32
+594,26-30,male,master,Engineering,Asian,3,3,5,3,3,3,2,22
+595,26-30,female,phd,Life Sciences,Other,5,4,4,5,5,5,5,33
+596,36-40,male,phd,Computer Science,Asian,5,5,5,5,5,5,5,35
+597,26-30,male,phd,Computer Science,Asian,3,3,3,4,3,4,4,24
+598,31-35,male,phd,Physical Sciences,Asian,4,3,3,3,4,4,4,25
+599,31-35,male,phd,Life Sciences,Asian,5,3,4,5,4,5,3,29
+600,31-35,male,phd,Physical Sciences,Asian,2,2,2,2,2,2,2,14
+601,31-35,female,phd,Physical Sciences,Asian,3,4,3,5,4,4,3,26
+602,31-35,male,phd,Mathematics,African,4,4,5,5,3,4,5,30
+603,31-35,male,phd,Mathematics,White,3,3,3,4,3,3,3,22
+604,31-35,male,phd,Computer Science,Asian,3,4,3,3,3,3,5,24
+605,31-35,female,phd,Mathematics,Asian,5,4,5,5,5,4,4,32
+606,26-30,male,phd,Physical Sciences,Asian,4,3,4,3,4,4,3,25
+607,31-35,female,phd,Physical Sciences,Asian,4,4,3,4,4,3,3,25
+608,26-30,male,phd,Mathematics,White,3,2,4,5,3,5,4,26
+609,26-30,female,phd,Life Sciences,Asian,5,4,4,5,4,3,3,28
+610,31-35,female,phd,Life Sciences,White,5,4,4,4,2,2,2,23
+611,31-35,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+612,31-35,female,phd,Mathematics,Other,3,3,4,5,4,3,3,25
+613,31-35,male,phd,Mathematics,Other,4,4,4,5,4,5,5,31
+614,31-35,male,phd,Life Sciences,Asian,4,4,4,4,4,4,4,28
+615,26-30,female,master,Computer Science,Asian,2,5,4,5,4,3,4,27
+616,31-35,female,phd,Physical Sciences,White,3,4,3,4,4,4,4,26
+617,31-35,male,phd,Physical Sciences,Other,5,5,5,5,5,5,5,35
+618,26-30,female,phd,Mathematics,White,5,5,3,5,5,5,3,31
+619,31-35,female,master,Computer Science,Asian,5,4,4,5,5,5,4,32
+620,36-40,male,phd,Computer Science,White,5,5,4,5,4,5,5,33
+621,31-35,male,phd,Life Sciences,Asian,5,4,4,5,5,5,5,33
+622,26-30,male,phd,Physical Sciences,Other,3,3,4,4,3,4,4,25
+623,26-30,male,phd,Physical Sciences,Asian,3,3,4,4,3,3,3,23
+624,26-30,male,phd,Physical Sciences,Asian,5,4,5,5,4,5,5,33
+625,31-35,male,phd,Life Sciences,Asian,3,2,2,5,3,3,3,21
+626,26-30,male,phd,Physical Sciences,White,3,2,3,5,3,2,3,21
+627,26-30,male,phd,Engineering,African,3,3,5,3,3,3,4,24
+628,26-30,male,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+629,26-30,female,phd,Life Sciences,Asian,3,3,3,5,3,4,3,24
+630,26-30,male,master,Engineering,Asian,3,4,5,3,3,4,4,26
+631,36-40,male,phd,Computer Science,Asian,5,4,4,3,4,4,3,27
+632,26-30,female,phd,Physical Sciences,White,5,3,4,4,4,4,4,28
+633,31-35,male,phd,Physical Sciences,Asian,3,3,3,3,3,4,3,22
+634,26-30,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+635,26-30,female,master,Life Sciences,Asian,5,4,4,4,4,4,4,29
+636,36-40,male,phd,Computer Science,Asian,4,3,3,4,4,4,4,26
+637,36-40,male,phd,Engineering,Asian,4,4,4,3,4,4,3,26
+638,31-35,male,phd,Computer Science,Asian,1,5,5,5,5,5,1,27
+639,31-35,male,phd,Life Sciences,Other,3,3,3,5,3,5,3,25
+640,26-30,female,master,Engineering,Asian,3,3,4,5,4,5,3,27
+641,31-35,male,phd,Physical Sciences,Asian,5,3,3,3,3,3,3,23
+642,31-35,female,phd,Engineering,Asian,4,4,4,5,5,4,4,30
+643,36-40,male,master,Engineering,Asian,5,4,4,5,3,4,4,29
+644,26-30,female,phd,Life Sciences,White,3,3,4,5,5,5,5,30
+645,26-30,female,phd,Life Sciences,Other,3,3,5,5,3,5,5,29
+646,26-30,male,master,Computer Science,Asian,4,3,3,3,3,3,5,24
+647,36-40,male,phd,Engineering,Asian,5,4,5,5,4,4,3,30
+648,31-35,male,phd,Physical Sciences,Asian,5,3,3,4,4,3,3,25
+649,26-30,male,phd,Engineering,Asian,4,3,4,5,3,3,3,25
+650,26-30,female,phd,Mathematics,Asian,2,1,1,5,2,2,1,14
+651,36-40,na,phd,Engineering,Asian,4,4,4,4,4,4,4,28
+652,26-30,female,phd,Mathematics,Other,3,3,3,4,3,3,3,22
+653,26-30,male,phd,Engineering,Asian,5,5,5,5,5,5,5,35
+654,26-30,male,phd,Engineering,Asian,4,3,3,4,4,3,3,24
+655,26-30,female,master,Engineering,Asian,3,5,4,5,4,4,4,29
+656,26-30,male,phd,Physical Sciences,Asian,5,5,5,5,5,5,5,35
+657,31-35,female,phd,Computer Science,White,3,4,3,4,3,4,3,24
+658,31-35,male,phd,Life Sciences,Asian,5,4,3,5,5,5,4,31
+659,31-35,male,phd,Computer Science,Asian,3,3,3,4,3,3,3,22
+660,31-35,female,phd,Life Sciences,Other,2,3,4,5,2,4,2,22
+661,26-30,male,master,Computer Science,Asian,4,3,5,3,5,5,4,29
+662,31-35,male,phd,Computer Science,White,2,3,4,4,3,4,2,22
+663,26-30,male,phd,Engineering,Asian,3,3,3,3,3,3,3,21
+664,26-30,male,master,Engineering,Asian,5,5,5,5,3,3,4,30
+665,31-35,male,master,Engineering,Asian,5,5,5,5,5,5,5,35
+666,31-35,male,phd,Mathematics,Asian,4,4,4,4,4,4,4,28
+667,36-40,female,phd,Life Sciences,Asian,4,3,2,3,5,4,2,23
+668,26-30,male,master,Engineering,Asian,4,4,5,5,4,4,5,31
+669,31-35,male,phd,Computer Science,Asian,3,4,5,4,4,4,4,28
+670,31-35,male,master,Mathematics,Asian,5,3,3,3,5,5,5,29
+671,31-35,male,master,Computer Science,White,2,2,5,2,5,2,3,21
+672,26-30,male,master,Engineering,Asian,4,4,4,4,4,4,4,28
+673,31-35,male,phd,Computer Science,Asian,5,5,4,3,4,4,4,29
+674,26-30,na,phd,Mathematics,White,4,4,5,4,3,3,4,27
+675,26-30,female,phd,Engineering,Asian,5,5,4,2,5,4,5,30
+676,41-45,male,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+677,31-35,male,phd,Mathematics,Other,2,3,4,5,2,2,1,19
+678,26-30,male,phd,Engineering,Asian,4,3,4,5,4,5,4,29
+679,31-35,female,phd,Life Sciences,Asian,5,3,3,5,5,5,5,31
+680,26-30,female,master,Mathematics,Asian,4,4,4,4,5,4,5,30
+681,26-30,male,phd,Physical Sciences,Asian,5,4,4,5,3,4,4,29
+682,31-35,female,phd,Life Sciences,Other,4,4,3,4,4,4,4,27
+683,26-30,male,phd,Engineering,Asian,5,4,5,5,5,5,5,34
+684,26-30,female,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+685,26-30,male,master,Engineering,Asian,3,3,4,2,3,5,4,24
+686,31-35,female,phd,Engineering,Asian,4,5,5,5,3,3,3,28
+687,26-30,male,phd,Mathematics,Asian,4,2,2,5,3,5,3,24
+688,41-45,male,phd,Life Sciences,African,4,4,4,5,4,4,3,28
+689,31-35,male,phd,Engineering,Asian,3,4,4,3,5,5,4,28
+690,31-35,male,phd,Engineering,White,4,3,4,5,5,5,5,31
+691,31-35,male,phd,Engineering,Asian,2,2,5,5,2,4,3,23
+692,31-35,male,phd,Computer Science,Asian,3,3,4,5,5,5,4,29
+693,31-35,female,phd,Engineering,Other,3,3,3,5,3,3,3,23
+694,31-35,female,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+695,26-30,male,phd,Mathematics,Asian,5,5,5,5,5,5,5,35
+696,36-40,male,phd,Computer Science,Other,3,3,3,5,3,3,5,25
+697,26-30,male,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+698,31-35,male,phd,Physical Sciences,Asian,4,4,4,4,4,4,4,28
+699,31-35,female,phd,Engineering,Asian,5,5,3,4,4,4,4,29
+700,26-30,female,master,Computer Science,Asian,4,4,4,2,3,3,3,23
+701,26-30,male,phd,Engineering,White,4,4,3,5,3,4,4,27
+702,26-30,female,phd,Physical Sciences,Asian,3,4,4,5,4,5,5,30
+703,31-35,male,phd,Computer Science,Asian,2,2,2,4,3,3,5,21
+704,26-30,female,phd,Engineering,Asian,5,5,5,4,4,4,4,31
+705,31-35,female,phd,Engineering,Asian,3,5,4,4,3,5,5,29
+706,26-30,male,master,Engineering,Asian,4,4,4,3,5,5,5,30
+707,31-35,female,phd,Physical Sciences,Asian,5,3,3,4,3,3,4,25
+708,31-35,female,phd,Physical Sciences,White,5,4,3,3,5,5,4,29
+709,26-30,female,master,Engineering,Asian,4,4,4,5,5,4,5,31
+710,26-30,male,phd,Computer Science,Asian,3,3,3,3,3,3,3,21
+711,31-35,male,phd,Mathematics,Asian,4,3,5,5,3,4,4,28
+712,31-35,female,phd,Engineering,Asian,5,3,5,5,5,5,4,32
+713,31-35,male,master,Engineering,Asian,5,4,3,3,4,4,3,26
+714,31-35,male,phd,Life Sciences,Asian,3,5,5,4,5,4,5,31
+715,26-30,male,master,Engineering,Asian,4,4,4,4,4,4,4,28
+716,31-35,male,master,Mathematics,Asian,5,5,4,4,5,4,3,30
+717,26-30,male,phd,Engineering,Asian,4,4,4,5,4,3,3,27
+718,31-35,male,phd,Life Sciences,African,4,4,4,4,4,4,4,28
+719,26-30,female,master,Life Sciences,African,4,4,3,3,4,3,3,24
+720,31-35,male,phd,Mathematics,Asian,4,5,5,5,5,5,5,34
+721,26-30,na,phd,Engineering,Asian,4,3,2,5,4,5,5,28
+722,36-40,male,phd,Physical Sciences,Asian,5,3,5,5,5,5,3,31
+723,26-30,male,master,Computer Science,Asian,4,3,5,4,4,4,4,28
+724,31-35,male,phd,Physical Sciences,Asian,5,5,5,5,3,3,3,29
+725,31-35,male,phd,Mathematics,Other,4,3,4,5,2,4,2,24
+726,31-35,male,phd,Engineering,Other,3,4,3,5,4,4,4,27
+727,26-30,male,phd,Engineering,Asian,5,4,4,4,4,4,5,30
+728,26-30,female,phd,Mathematics,Asian,4,5,5,4,4,5,4,31
+729,31-35,male,phd,Life Sciences,Asian,5,5,5,5,4,4,4,32
+730,36-40,female,phd,Life Sciences,African,5,5,5,5,5,5,5,35
+731,26-30,male,master,Engineering,Asian,4,4,4,4,4,4,4,28
+732,26-30,male,master,Computer Science,Asian,5,5,5,5,5,5,5,35
+733,36-40,male,phd,Life Sciences,African,5,5,4,5,5,4,5,33
+734,31-35,male,phd,Engineering,Asian,5,5,5,5,5,5,5,35
+735,26-30,female,master,Computer Science,Asian,4,3,4,3,3,4,4,25
+736,31-35,male,phd,Life Sciences,Asian,2,3,5,5,1,1,2,19
+737,31-35,female,phd,Life Sciences,Asian,5,3,4,5,4,5,3,29
+738,26-30,female,phd,Life Sciences,Asian,5,4,5,5,5,4,4,32
+739,36-40,male,phd,Life Sciences,Asian,5,3,5,5,5,4,5,32
+740,18-25,male,phd,Life Sciences,Asian,5,4,4,4,4,4,3,28
+741,31-35,male,phd,Physical Sciences,Asian,4,4,3,4,3,3,3,24
+742,31-35,male,phd,Life Sciences,Asian,4,4,4,5,4,3,4,28
+743,26-30,female,phd,Physical Sciences,White,5,4,5,5,4,4,4,31
+744,26-30,female,master,Engineering,Asian,4,3,3,5,5,3,3,26
+745,31-35,male,phd,Computer Science,Asian,3,3,3,3,4,3,4,23
+746,31-35,male,phd,Engineering,Other,3,4,3,5,3,3,4,25
+747,26-30,male,master,Computer Science,Asian,4,4,4,5,5,4,4,30
+748,31-35,male,phd,Engineering,Asian,4,3,4,3,3,4,4,25
+749,31-35,male,phd,Life Sciences,Asian,5,5,5,5,5,5,5,35
+750,36-40,female,phd,Computer Science,Asian,4,4,3,4,3,4,4,26
+751,26-30,male,phd,Physical Sciences,White,2,4,2,1,4,3,3,19
+752,26-30,female,master,Engineering,Asian,4,4,4,3,4,4,4,27
+753,31-35,female,master,Life Sciences,Other,4,4,3,5,3,4,3,26
+754,26-30,female,phd,Engineering,White,3,3,3,3,3,3,3,21
+755,26-30,male,phd,Computer Science,Asian,3,3,3,3,3,3,3,21
+756,41-45,male,phd,Engineering,Asian,4,4,4,5,4,4,2,27
+757,31-35,male,phd,Computer Science,Other,3,3,3,3,3,4,3,22
+758,26-30,male,phd,Computer Science,Asian,4,3,4,4,4,4,3,26
+759,26-30,male,master,Engineering,Asian,5,5,5,4,5,3,5,32
+760,26-30,male,phd,Physical Sciences,Asian,4,5,5,4,3,4,2,27
+761,31-35,female,phd,Life Sciences,Asian,5,4,5,5,5,4,3,31
+762,26-30,female,phd,Life Sciences,Asian,4,4,3,5,4,3,3,26
+763,26-30,female,phd,Life Sciences,Asian,4,3,3,4,4,4,4,26
+764,31-35,male,phd,Life Sciences,Other,4,3,4,5,3,3,2,24
+765,26-30,male,phd,Mathematics,White,3,3,5,3,3,3,3,23
+766,26-30,male,phd,Physical Sciences,Asian,4,5,4,4,5,5,3,30
+767,26-30,male,master,Computer Science,Asian,4,4,4,3,4,4,4,27
+768,26-30,male,phd,Physical Sciences,Asian,4,4,4,5,4,4,4,29
+769,31-35,male,phd,Engineering,Asian,4,4,5,5,4,4,2,28
+770,26-30,female,master,Physical Sciences,Asian,3,3,4,3,2,2,4,21
+771,26-30,female,master,Computer Science,Asian,5,4,3,4,4,5,4,29
+772,26-30,female,master,Computer Science,Asian,5,4,4,2,5,4,3,27
+773,31-35,male,phd,Physical Sciences,Asian,5,4,3,5,4,3,3,27
+774,26-30,male,phd,Computer Science,Asian,5,3,3,4,4,5,4,28
+775,26-30,male,master,Computer Science,Asian,4,4,4,3,4,3,3,25
+776,36-40,female,phd,Engineering,Asian,3,3,3,3,3,3,3,21
+777,31-35,female,phd,Physical Sciences,Asian,5,4,3,5,4,4,5,30
+778,26-30,male,phd,Life Sciences,Asian,3,2,3,3,3,3,3,20
+779,26-30,male,phd,Mathematics,White,3,3,3,3,3,3,3,21
+780,26-30,male,master,Computer Science,Other,4,5,5,5,5,5,5,34
+781,26-30,male,master,Computer Science,Asian,5,5,3,5,5,5,2,30
+782,26-30,female,phd,Physical Sciences,Asian,5,4,2,4,4,4,4,27
+783,26-30,female,phd,Mathematics,White,4,1,3,5,3,3,4,23
+784,26-30,female,phd,Life Sciences,White,3,3,3,3,3,3,3,21
+785,31-35,female,master,Computer Science,Asian,3,4,5,5,3,3,3,26
+786,31-35,female,phd,Engineering,Asian,5,5,4,3,5,5,3,30
