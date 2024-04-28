@@ -13,6 +13,7 @@ import pandas as pd
 # Open the file 
 
 data = pd.read_csv('int_results.csv', encoding='latin1')
+country_list = pd.read_csv('country_list.csv', encoding='latin1')
 
 # Select the columns for analysis
 
@@ -21,21 +22,40 @@ variables = data[L]
 
 # Change column name
 
-fix_name = {'Q2': 'age', 'Q3': 'gender', 'Q4': 'degree', 'Q5': 'discipline', 'Q22': 'region', 'Q39_1': 'att_1','Q39_2': 'att_2','Q39_3': 'att_3','Q39_4': 'att_4','Q39_5': 'att_5','Q39_6': 'att_6','Q39_7': 'att_7'}
+fix_name = {'Q2': 'age', 'Q3': 'gender', 'Q4': 'degree', 'Q5': 'discipline', 'Q22': 'country', 'Q39_1': 'att_1','Q39_2': 'att_2','Q39_3': 'att_3','Q39_4': 'att_4','Q39_5': 'att_5','Q39_6': 'att_6','Q39_7': 'att_7'}
 variables = variables.rename(columns=fix_name)
 
-# Group countries into regions
+# Create a column of regions in the country list 
 
-asia = [44,91,161,190,4,16,19,53,88,92,96,99,100,105,106,109,121,132,139,150,157,168,172,180,193,213]
-variables['region'] = variables['region'].replace(asia, 'Asian')
+country_list['region'] = country_list['Country Code']
+
+# Recategorize the countries into regions
+
+east_asia = [44,161,190,88,92,99,121,132,172,193,213]
+country_list['region'] = country_list['region'].replace(east_asia, 'East Asia')
+
+south_asia = [91,19,139,157,180]
+country_list['region'] = country_list['region'].replace(south_asia, 'South Asia')
+
+middle_east = [4,16,53,96,100,105,106,109,150,168]
+country_list['region'] = country_list['region'].replace(middle_east, 'Middle East')
 
 africa = [24,60,65,77,102,146,177,202,221]
-variables['region'] = variables['region'].replace(africa, 'African')
+country_list['region'] = country_list['region'].replace(africa, 'Africa')
 
 white = [38,76,14,143,5,15,22,51,55,69,70,79,89,90,95,97,140,158,159,163,164,173,179,205]
-variables['region'] = variables['region'].replace(white, 'White')
+country_list['region'] = country_list['region'].replace(white, 'White')
 
-variables['region'] = variables['region'].apply(lambda x: 'Other' if isinstance(x, (int, float)) else x)
+country_list['region'] = country_list['region'].apply(lambda x: 'Other' if isinstance(x, (int, float)) else x)
+
+# Merge the dataframes
+
+variables = variables.merge(country_list, left_on = ['country'], right_on = ['Country Code'], how="left", indicator=True)
+
+print(variables["_merge"].value_counts())
+variables = variables.drop(columns='_merge')
+
+#%%
 
 # Change age into meaningful categories
 
