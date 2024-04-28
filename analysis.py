@@ -69,7 +69,7 @@ fig.savefig("Individual Attitude Comparison.png")
 for var in ind_dep_vars:
     fig, ax1 = plt.subplots()
     sns.boxenplot(data=variables, x=var, y="region", orient="h", ax=ax1, color='skyblue')
-    ax1.set_title(f"{var}_by_Year")
+    ax1.set_title(f"{var}_by_region")
     fig.tight_layout()
     fig.savefig(f"{var}.png")
     
