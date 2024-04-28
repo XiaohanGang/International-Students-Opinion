@@ -103,12 +103,12 @@ print(fa.get_eigenvalues())
 # Set up the primary independent variable - regions
 
 regions = {
-    'East Asia': {'East Asia': 1, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'South America': 0},
-    'South Asia': {'East Asia': 0, 'South Asia': 1, 'Middle East': 0, 'White': 0, 'Africa': 0, 'South America': 0},
-    'Middle East': {'East Asia': 0, 'South Asia': 0, 'Middle East': 1, 'White': 0, 'Africa': 0, 'South America': 0},
-    'White': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 1, 'Africa': 0, 'South America': 0},
-    'Black': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 1, 'South America': 0},
-    'South America': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'South America': 1},
+    'East Asia': {'East Asia': 1, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Black': 0, 'South America': 0},
+    'South Asia': {'East Asia': 0, 'South Asia': 1, 'Middle East': 0, 'White': 0, 'Black': 0, 'South America': 0},
+    'Middle East': {'East Asia': 0, 'South Asia': 0, 'Middle East': 1, 'White': 0, 'Black': 0, 'South America': 0},
+    'White': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 1, 'Black': 0, 'South America': 0},
+    'Black': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Black': 1, 'South America': 0},
+    'South America': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Black': 0, 'South America': 1},
 }
 
 for region, values in regions.items():
