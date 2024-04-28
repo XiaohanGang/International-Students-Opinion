@@ -37,16 +37,16 @@ country_list['region'] = country_list['region'].replace(east_asia, 'East Asia')
 south_asia = [91,19,139,157,180]
 country_list['region'] = country_list['region'].replace(south_asia, 'South Asia')
 
-middle_east = [4,16,53,96,100,105,106,109,150,168]
+middle_east = [4,16,53,96,100,105,106,109,150,168,93,198]
 country_list['region'] = country_list['region'].replace(middle_east, 'Middle East')
 
-africa = [24,60,65,77,102,146,177,202,221]
-country_list['region'] = country_list['region'].replace(africa, 'Africa')
+black = [24,60,65,77,102,146,177,202,221,196,182,98,17]
+country_list['region'] = country_list['region'].replace(black, 'Black')
 
 white = [38,76,14,143,5,15,22,51,55,69,70,79,89,90,95,97,140,158,159,163,164,173,179,205]
 country_list['region'] = country_list['region'].replace(white, 'White')
 
-country_list['region'] = country_list['region'].apply(lambda x: 'Other' if isinstance(x, (int, float)) else x)
+country_list['region'] = country_list['region'].apply(lambda x: 'South America' if isinstance(x, (int, float)) else x)
 
 # Merge the dataframes
 

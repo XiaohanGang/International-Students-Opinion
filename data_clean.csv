@@ -2,62 +2,62 @@
 0,26-30,female,master,Other,44,5,5,4,4,5,5,5,44,China,East Asia,33
 1,26-30,female,phd,Other,44,4,4,4,3,4,4,4,44,China,East Asia,27
 2,26-30,male,phd,Other,157,5,4,4,5,5,5,5,157,Philippines,South Asia,33
-3,31-35,male,phd,Other,60,3,3,2,5,4,4,3,60,Egypt,Africa,24
+3,31-35,male,phd,Other,60,3,3,2,5,4,4,3,60,Egypt,Black,24
 4,36-40,male,phd,Other,38,3,3,4,3,3,3,3,38,Canada,White,22
-5,31-35,female,master,Other,196,3,4,4,5,4,3,4,196,Trinidad & Tobago,Other,27
+5,31-35,female,master,Other,196,3,4,4,5,4,3,4,196,Trinidad & Tobago,Black,27
 6,31-35,female,master,Other,44,5,4,4,4,5,5,5,44,China,East Asia,32
-7,36-40,male,master,Other,153,3,5,5,5,3,4,2,153,Panama,Other,27
+7,36-40,male,master,Other,153,3,5,5,5,3,4,2,153,Panama,South America,27
 8,31-35,male,phd,Other,96,3,3,5,3,3,3,5,96,Israel,Middle East,25
-9,31-35,female,phd,Other,45,3,3,3,5,3,5,5,45,Colombia,Other,27
+9,31-35,female,phd,Other,45,3,3,3,5,3,5,5,45,Colombia,South America,27
 10,26-30,male,master,Other,44,5,4,3,4,4,4,4,44,China,East Asia,28
 11,26-30,male,master,Other,44,5,5,4,4,4,3,3,44,China,East Asia,28
 12,26-30,female,master,Other,44,5,3,3,4,3,3,3,44,China,East Asia,24
 13,26-30,female,master,Other,91,3,3,3,3,3,2,3,91,India,South Asia,20
-14,41-45,male,phd,Other,221,5,5,5,5,5,5,5,221,Zimbabwe,Africa,35
+14,41-45,male,phd,Other,221,5,5,5,5,5,5,5,221,Zimbabwe,Black,35
 15,31-35,male,master,Other,44,4,4,4,4,4,4,4,44,China,East Asia,28
 16,36-40,male,master,Other,91,5,5,5,5,5,5,3,91,India,South Asia,33
 17,31-35,female,master,Other,190,5,3,4,4,3,4,4,190,Taiwan,East Asia,27
 18,36-40,female,master,Other,14,3,3,3,3,3,3,3,14,Australia,White,21
-19,31-35,female,phd,Other,182,3,4,4,5,4,5,3,182,St Lucia,Other,28
+19,31-35,female,phd,Other,182,3,4,4,5,4,5,3,182,St Lucia,Black,28
 20,31-35,female,phd,Other,91,4,3,4,4,3,4,4,91,India,South Asia,26
 21,31-35,na,phd,Other,91,5,5,5,5,5,4,5,91,India,South Asia,34
 22,36-40,female,phd,Other,190,4,4,4,5,4,4,5,190,Taiwan,East Asia,30
-23,36-40,male,phd,Other,43,5,3,4,4,3,3,3,43,Chile,Other,25
+23,36-40,male,phd,Other,43,5,3,4,4,3,3,3,43,Chile,South America,25
 24,31-35,male,phd,Other,19,4,3,5,5,4,3,4,19,Bangladesh,South Asia,28
-25,36-40,male,phd,Other,45,3,4,4,5,4,4,5,45,Colombia,Other,29
-26,41-45,female,phd,Other,98,3,3,4,5,2,3,3,98,Jamaica,Other,23
-27,26-30,female,phd,Other,30,3,4,4,4,3,4,2,30,Brazil,Other,24
-28,36-40,female,phd,Other,129,3,3,5,5,3,4,2,129,Mexico,Other,25
-29,41-45,male,master,Other,102,4,5,5,5,5,5,5,102,Kenya,Africa,34
+25,36-40,male,phd,Other,45,3,4,4,5,4,4,5,45,Colombia,South America,29
+26,41-45,female,phd,Other,98,3,3,4,5,2,3,3,98,Jamaica,Black,23
+27,26-30,female,phd,Other,30,3,4,4,4,3,4,2,30,Brazil,South America,24
+28,36-40,female,phd,Other,129,3,3,5,5,3,4,2,129,Mexico,South America,25
+29,41-45,male,master,Other,102,4,5,5,5,5,5,5,102,Kenya,Black,34
 30,26-30,female,phd,Other,44,5,4,5,5,5,5,4,44,China,East Asia,33
 31,36-40,female,phd,Other,44,3,5,4,4,4,3,3,44,China,East Asia,26
 32,31-35,female,phd,Other,44,5,5,5,5,5,5,5,44,China,East Asia,35
 33,36-40,male,master,Other,168,2,2,2,2,3,2,3,168,Saudi Arabia,Middle East,16
-34,31-35,male,master,Other,24,5,4,4,5,5,5,5,24,Benin,Africa,33
+34,31-35,male,master,Other,24,5,4,4,5,5,5,5,24,Benin,Black,33
 35,26-30,male,master,Other,190,5,4,5,5,5,5,4,190,Taiwan,East Asia,33
-36,31-35,male,phd,Other,129,3,1,4,5,2,1,3,129,Mexico,Other,19
+36,31-35,male,phd,Other,129,3,1,4,5,2,1,3,129,Mexico,South America,19
 37,36-40,female,master,Other,121,5,5,4,5,3,3,5,121,Malaysia,East Asia,30
 38,31-35,female,master,Other,44,3,3,3,4,3,3,3,44,China,East Asia,22
 39,26-30,female,phd,Other,44,4,3,3,4,3,4,2,44,China,East Asia,23
 40,26-30,female,phd,Other,55,3,3,4,3,3,4,3,55,Denmark,White,23
 41,26-30,male,phd,Other,150,4,2,5,5,3,3,3,150,Pakistan,Middle East,25
 42,31-35,female,phd,Other,91,3,1,1,1,3,3,4,91,India,South Asia,16
-43,26-30,male,phd,Other,198,3,3,3,5,3,3,3,198,Turkey,Other,23
+43,26-30,male,phd,Other,198,3,3,3,5,3,3,3,198,Turkey,Middle East,23
 44,26-30,female,phd,Other,91,4,3,3,5,4,4,4,91,India,South Asia,27
-45,36-40,female,phd,Other,17,3,1,3,4,3,4,4,17,Bahamas,Other,22
+45,36-40,female,phd,Other,17,3,1,3,4,3,4,4,17,Bahamas,Black,22
 46,26-30,male,phd,Other,44,4,5,4,5,4,4,4,44,China,East Asia,30
 47,31-35,male,master,Other,139,5,5,5,5,5,5,5,139,Nepal,South Asia,35
 48,26-30,female,phd,Other,44,5,4,4,4,4,4,4,44,China,East Asia,29
 49,36-40,male,phd,Other,190,5,3,4,2,3,5,3,190,Taiwan,East Asia,25
-50,31-35,male,phd,Other,146,5,5,5,5,5,5,5,146,Nigeria,Africa,35
-51,31-35,female,phd,Other,30,4,3,3,5,3,4,3,30,Brazil,Other,25
+50,31-35,male,phd,Other,146,5,5,5,5,5,5,5,146,Nigeria,Black,35
+51,31-35,female,phd,Other,30,4,3,3,5,3,4,3,30,Brazil,South America,25
 52,31-35,male,phd,Other,91,2,3,4,5,4,4,4,91,India,South Asia,26
 53,31-35,male,phd,Other,91,4,5,5,3,5,4,4,91,India,South Asia,30
 54,31-35,female,phd,Other,91,5,5,5,5,5,5,4,91,India,South Asia,34
 55,31-35,female,phd,Other,193,4,3,4,5,4,5,3,193,Thailand,East Asia,28
-56,36-40,female,phd,Other,45,2,4,2,5,3,5,3,45,Colombia,Other,24
+56,36-40,female,phd,Other,45,2,4,2,5,3,5,3,45,Colombia,South America,24
 57,26-30,female,phd,Other,106,2,2,2,2,2,2,2,106,Kyrgyzstan,Middle East,14
-58,31-35,male,phd,Other,60,5,5,5,5,5,5,5,60,Egypt,Africa,35
+58,31-35,male,phd,Other,60,5,5,5,5,5,5,5,60,Egypt,Black,35
 59,31-35,male,master,Other,190,4,4,4,3,4,4,4,190,Taiwan,East Asia,27
 60,26-30,female,phd,Life Sciences,161,5,5,5,5,5,5,5,161,Republic of Korea,East Asia,35
 61,31-35,male,phd,Physical Sciences,38,3,3,3,3,3,3,3,38,Canada,White,21
@@ -81,7 +81,7 @@
 79,26-30,male,phd,Engineering,44,3,3,4,4,4,3,4,44,China,East Asia,25
 80,31-35,male,phd,Engineering,44,4,3,3,3,4,4,4,44,China,East Asia,25
 81,31-35,female,phd,Life Sciences,44,4,4,4,4,4,4,4,44,China,East Asia,28
-82,31-35,male,phd,Physical Sciences,129,5,3,4,5,5,5,4,129,Mexico,Other,31
+82,31-35,male,phd,Physical Sciences,129,5,3,4,5,5,5,4,129,Mexico,South America,31
 83,36-40,female,master,Engineering,44,5,4,3,5,5,3,3,44,China,East Asia,28
 84,31-35,female,phd,Life Sciences,44,4,5,3,3,3,4,2,44,China,East Asia,24
 85,36-40,female,phd,Physical Sciences,99,3,5,3,2,3,5,5,99,Japan,East Asia,26
@@ -93,14 +93,14 @@
 91,26-30,female,master,Computer Science,44,3,3,3,1,3,3,3,44,China,East Asia,19
 92,31-35,male,phd,Physical Sciences,91,5,5,5,5,5,5,5,91,India,South Asia,35
 93,26-30,male,phd,Computer Science,190,4,4,4,3,3,3,4,190,Taiwan,East Asia,25
-94,26-30,male,master,Computer Science,198,4,3,3,4,3,4,3,198,Turkey,Other,24
+94,26-30,male,master,Computer Science,198,4,3,3,4,3,4,3,198,Turkey,Middle East,24
 95,36-40,male,phd,Life Sciences,95,4,4,5,4,4,4,4,95,Ireland,White,29
 96,36-40,male,phd,Engineering,161,1,3,3,3,3,2,4,161,Republic of Korea,East Asia,19
 97,31-35,female,phd,Life Sciences,190,4,4,4,4,4,4,4,190,Taiwan,East Asia,28
 98,36-40,male,phd,Mathematics,96,3,3,3,3,3,3,2,96,Israel,Middle East,20
 99,26-30,female,master,Computer Science,44,5,4,4,3,3,4,4,44,China,East Asia,27
 100,26-30,male,phd,Physical Sciences,44,4,3,3,2,4,4,3,44,China,East Asia,23
-101,26-30,female,phd,Life Sciences,30,5,4,3,3,4,5,4,30,Brazil,Other,28
+101,26-30,female,phd,Life Sciences,30,5,4,3,3,4,5,4,30,Brazil,South America,28
 102,26-30,male,phd,Life Sciences,205,3,3,2,3,3,3,4,205,United Kingdom,White,21
 103,26-30,male,master,Engineering,91,5,5,5,5,5,5,5,91,India,South Asia,35
 104,26-30,male,phd,Life Sciences,140,3,2,3,3,3,4,4,140,Netherlands,White,22
@@ -130,9 +130,9 @@
 128,31-35,male,phd,Physical Sciences,44,5,4,4,5,5,4,3,44,China,East Asia,30
 129,31-35,female,phd,Life Sciences,44,5,5,3,4,4,5,5,44,China,East Asia,31
 130,31-35,male,phd,Life Sciences,91,5,4,4,5,4,5,4,91,India,South Asia,31
-131,36-40,na,phd,Life Sciences,198,5,4,4,5,5,4,5,198,Turkey,Other,32
-132,26-30,male,phd,Life Sciences,60,4,4,3,5,4,4,4,60,Egypt,Africa,28
-133,31-35,male,phd,Life Sciences,65,4,2,4,5,4,3,4,65,Ethiopia,Africa,26
+131,36-40,na,phd,Life Sciences,198,5,4,4,5,5,4,5,198,Turkey,Middle East,32
+132,26-30,male,phd,Life Sciences,60,4,4,3,5,4,4,4,60,Egypt,Black,28
+133,31-35,male,phd,Life Sciences,65,4,2,4,5,4,3,4,65,Ethiopia,Black,26
 134,31-35,female,phd,Life Sciences,91,3,4,4,4,3,3,3,91,India,South Asia,24
 135,31-35,male,phd,Engineering,44,3,3,3,3,3,3,3,44,China,East Asia,21
 136,26-30,female,phd,Physical Sciences,91,3,1,3,5,2,4,4,91,India,South Asia,22
@@ -145,16 +145,16 @@
 143,26-30,male,phd,Life Sciences,150,5,5,5,5,5,5,5,150,Pakistan,Middle East,35
 144,26-30,male,master,Engineering,44,3,4,4,3,4,4,4,44,China,East Asia,26
 145,36-40,male,phd,Life Sciences,44,4,4,4,4,4,4,4,44,China,East Asia,28
-146,36-40,female,phd,Life Sciences,45,5,4,5,4,3,3,2,45,Colombia,Other,26
+146,36-40,female,phd,Life Sciences,45,5,4,5,4,3,3,2,45,Colombia,South America,26
 147,31-35,male,phd,Engineering,44,3,3,3,4,5,5,4,44,China,East Asia,27
 148,26-30,female,master,Engineering,70,5,5,5,5,3,5,4,70,France,White,32
 149,31-35,male,phd,Computer Science,91,3,5,5,5,3,3,3,91,India,South Asia,27
 150,31-35,male,phd,Computer Science,44,5,4,4,5,4,4,5,44,China,East Asia,31
-151,36-40,male,phd,Life Sciences,60,5,5,5,5,3,1,3,60,Egypt,Africa,27
-152,41-45,male,phd,Computer Science,153,4,3,5,5,4,4,5,153,Panama,Other,30
+151,36-40,male,phd,Life Sciences,60,5,5,5,5,3,1,3,60,Egypt,Black,27
+152,41-45,male,phd,Computer Science,153,4,3,5,5,4,4,5,153,Panama,South America,30
 153,26-30,male,master,Computer Science,44,3,3,4,4,3,3,2,44,China,East Asia,22
 154,26-30,female,master,Engineering,91,3,2,2,4,4,3,3,91,India,South Asia,21
-155,31-35,female,phd,Engineering,93,4,2,3,5,5,4,4,93,Iran,Other,27
+155,31-35,female,phd,Engineering,93,4,2,3,5,5,4,4,93,Iran,Middle East,27
 156,31-35,male,phd,Life Sciences,91,4,4,4,5,4,4,5,91,India,South Asia,30
 157,36-40,female,phd,Life Sciences,91,5,5,5,5,4,4,4,91,India,South Asia,32
 158,36-40,male,phd,Physical Sciences,172,4,4,3,4,4,4,4,172,Singapore,East Asia,27
@@ -179,14 +179,14 @@
 177,31-35,male,phd,Engineering,91,2,2,2,4,2,1,3,91,India,South Asia,16
 178,31-35,female,master,Mathematics,190,3,3,4,2,4,5,3,190,Taiwan,East Asia,24
 179,26-30,female,master,Engineering,44,5,5,5,3,5,4,4,44,China,East Asia,31
-180,26-30,male,phd,Engineering,93,5,5,5,5,4,2,4,93,Iran,Other,30
+180,26-30,male,phd,Engineering,93,5,5,5,5,4,2,4,93,Iran,Middle East,30
 181,26-30,male,master,Engineering,44,4,4,4,4,5,5,5,44,China,East Asia,31
 182,26-30,female,master,Engineering,44,5,4,4,5,5,5,4,44,China,East Asia,32
 183,26-30,male,master,Engineering,91,5,3,4,4,5,5,5,91,India,South Asia,31
 184,26-30,female,master,Engineering,44,5,4,3,3,5,5,3,44,China,East Asia,28
-185,26-30,female,master,Engineering,30,4,5,4,3,4,4,4,30,Brazil,Other,28
+185,26-30,female,master,Engineering,30,4,5,4,3,4,4,4,30,Brazil,South America,28
 186,26-30,male,master,Engineering,44,5,5,5,5,5,5,5,44,China,East Asia,35
-187,31-35,female,phd,Engineering,93,4,4,3,5,3,4,5,93,Iran,Other,28
+187,31-35,female,phd,Engineering,93,4,4,3,5,3,4,5,93,Iran,Middle East,28
 188,26-30,male,master,Engineering,91,3,4,4,5,4,5,4,91,India,South Asia,29
 189,26-30,male,master,Engineering,91,5,5,5,4,4,5,5,91,India,South Asia,33
 190,26-30,male,master,Engineering,91,4,4,4,5,3,4,4,91,India,South Asia,28
@@ -196,18 +196,18 @@
 194,26-30,female,phd,Engineering,38,3,3,3,3,3,3,3,38,Canada,White,21
 195,26-30,male,phd,Engineering,44,4,5,4,5,5,5,5,44,China,East Asia,33
 196,36-40,male,phd,Mathematics,91,5,4,5,5,5,5,5,91,India,South Asia,34
-197,31-35,female,phd,Physical Sciences,198,4,4,4,3,4,4,4,198,Turkey,Other,27
+197,31-35,female,phd,Physical Sciences,198,4,4,4,3,4,4,4,198,Turkey,Middle East,27
 198,31-35,male,phd,Mathematics,91,5,5,5,5,5,5,5,91,India,South Asia,35
 199,36-40,female,phd,Life Sciences,161,5,3,4,4,4,4,4,161,Republic of Korea,East Asia,28
 200,36-40,male,phd,Engineering,79,5,5,5,5,5,5,5,79,Greece,White,35
 201,31-35,female,master,Life Sciences,38,3,3,3,3,3,3,3,38,Canada,White,21
 202,26-30,female,master,Mathematics,76,3,4,3,5,3,3,2,76,Germany,White,23
-203,31-35,male,phd,Physical Sciences,43,2,1,2,5,3,3,2,43,Chile,Other,18
-204,36-40,female,phd,Physical Sciences,198,5,3,3,5,5,5,3,198,Turkey,Other,29
+203,31-35,male,phd,Physical Sciences,43,2,1,2,5,3,3,2,43,Chile,South America,18
+204,36-40,female,phd,Physical Sciences,198,5,3,3,5,5,5,3,198,Turkey,Middle East,29
 205,26-30,male,phd,Mathematics,91,3,3,3,3,3,3,3,91,India,South Asia,21
-206,31-35,male,phd,Mathematics,129,1,2,4,4,2,4,4,129,Mexico,Other,21
+206,31-35,male,phd,Mathematics,129,1,2,4,4,2,4,4,129,Mexico,South America,21
 207,31-35,female,phd,Life Sciences,38,3,3,3,3,3,3,3,38,Canada,White,21
-208,36-40,male,phd,Life Sciences,11,2,3,2,5,2,3,3,11,Argentina,Other,20
+208,36-40,male,phd,Life Sciences,11,2,3,2,5,2,3,3,11,Argentina,South America,20
 209,31-35,female,phd,Physical Sciences,190,5,3,3,4,3,3,3,190,Taiwan,East Asia,24
 210,31-35,male,phd,Life Sciences,172,4,4,4,4,5,4,3,172,Singapore,East Asia,28
 211,26-30,male,phd,Mathematics,44,3,3,3,5,3,5,3,44,China,East Asia,25
@@ -219,10 +219,10 @@
 217,26-30,female,phd,Mathematics,15,2,3,2,4,3,4,4,15,Austria,White,22
 218,26-30,male,phd,Mathematics,44,4,4,4,5,4,5,3,44,China,East Asia,29
 219,26-30,male,phd,Mathematics,38,3,3,3,3,3,3,3,38,Canada,White,21
-220,26-30,female,master,Engineering,30,4,3,3,5,3,3,5,30,Brazil,Other,26
+220,26-30,female,master,Engineering,30,4,3,3,5,3,3,5,30,Brazil,South America,26
 221,26-30,female,master,Engineering,91,5,2,4,4,4,3,4,91,India,South Asia,26
 222,26-30,male,phd,Computer Science,91,3,4,4,3,3,3,3,91,India,South Asia,23
-223,31-35,female,phd,Life Sciences,198,3,4,4,4,3,4,4,198,Turkey,Other,26
+223,31-35,female,phd,Life Sciences,198,3,4,4,4,3,4,4,198,Turkey,Middle East,26
 224,26-30,male,master,Engineering,91,4,4,4,5,5,5,5,91,India,South Asia,32
 225,26-30,male,master,Computer Science,91,4,4,3,4,4,4,5,91,India,South Asia,28
 226,26-30,female,master,Computer Science,91,3,4,4,4,4,4,4,91,India,South Asia,27
@@ -234,11 +234,11 @@
 232,31-35,female,master,Engineering,97,4,2,3,5,3,3,3,97,Italy,White,23
 233,26-30,male,master,Computer Science,91,3,3,3,5,4,4,4,91,India,South Asia,26
 234,31-35,male,master,Computer Science,91,5,5,5,3,5,5,5,91,India,South Asia,33
-235,26-30,male,master,Computer Science,129,3,5,5,4,4,3,4,129,Mexico,Other,28
+235,26-30,male,master,Computer Science,129,3,5,5,4,4,3,4,129,Mexico,South America,28
 236,26-30,male,master,Computer Science,91,5,5,5,5,5,5,5,91,India,South Asia,35
 237,26-30,female,master,Computer Science,91,4,3,3,4,3,3,2,91,India,South Asia,22
 238,26-30,male,master,Computer Science,91,5,5,5,5,5,5,5,91,India,South Asia,35
-239,31-35,female,master,Engineering,30,3,3,3,5,3,3,3,30,Brazil,Other,23
+239,31-35,female,master,Engineering,30,3,3,3,5,3,3,3,30,Brazil,South America,23
 240,26-30,male,master,Engineering,91,4,3,4,4,5,5,4,91,India,South Asia,29
 241,26-30,female,master,Engineering,91,5,5,5,5,5,5,5,91,India,South Asia,35
 242,26-30,male,master,Computer Science,44,3,3,3,4,3,3,3,44,China,East Asia,22
@@ -246,7 +246,7 @@
 244,31-35,male,phd,Engineering,44,3,4,4,4,4,4,4,44,China,East Asia,27
 245,31-35,male,master,Engineering,91,5,5,5,5,5,5,5,91,India,South Asia,35
 246,26-30,male,master,Engineering,91,5,3,4,3,2,3,3,91,India,South Asia,23
-247,26-30,male,phd,Computer Science,30,3,3,4,5,3,3,4,30,Brazil,Other,25
+247,26-30,male,phd,Computer Science,30,3,3,4,5,3,3,4,30,Brazil,South America,25
 248,26-30,male,master,Computer Science,91,3,4,4,4,4,5,3,91,India,South Asia,27
 249,26-30,female,master,Life Sciences,44,3,4,3,5,5,3,3,44,China,East Asia,26
 250,31-35,male,master,Engineering,190,4,3,4,5,4,4,3,190,Taiwan,East Asia,27
@@ -255,7 +255,7 @@
 253,26-30,female,master,Computer Science,91,4,3,4,3,4,3,4,91,India,South Asia,25
 254,26-30,male,master,Engineering,91,4,4,5,5,3,3,4,91,India,South Asia,28
 255,31-35,na,master,Engineering,91,4,2,2,3,2,3,2,91,India,South Asia,18
-256,31-35,male,phd,Engineering,93,1,3,2,1,4,1,2,93,Iran,Other,14
+256,31-35,male,phd,Engineering,93,1,3,2,1,4,1,2,93,Iran,Middle East,14
 257,26-30,male,master,Life Sciences,91,2,3,3,4,4,4,3,91,India,South Asia,23
 258,26-30,female,master,Computer Science,91,4,2,4,3,3,3,3,91,India,South Asia,22
 259,26-30,male,master,Engineering,91,4,5,5,5,4,4,5,91,India,South Asia,32
@@ -268,7 +268,7 @@
 266,36-40,female,master,Computer Science,91,5,4,3,5,4,4,3,91,India,South Asia,28
 267,26-30,female,master,Engineering,44,4,4,5,5,4,5,5,44,China,East Asia,32
 268,26-30,female,master,Life Sciences,91,4,4,4,5,4,4,4,91,India,South Asia,29
-269,31-35,male,phd,Engineering,93,3,4,2,5,3,3,3,93,Iran,Other,23
+269,31-35,male,phd,Engineering,93,3,4,2,5,3,3,3,93,Iran,Middle East,23
 270,26-30,male,master,Computer Science,91,5,5,5,3,3,3,3,91,India,South Asia,27
 271,26-30,male,master,Engineering,91,5,4,4,2,4,5,3,91,India,South Asia,27
 272,26-30,male,master,Engineering,44,5,4,3,3,4,4,4,44,China,East Asia,27
@@ -278,7 +278,7 @@
 276,26-30,female,phd,Mathematics,109,3,2,4,5,3,3,4,109,Lebanon,Middle East,24
 277,26-30,male,master,Engineering,91,4,3,4,4,4,4,4,91,India,South Asia,27
 278,26-30,male,master,Engineering,158,4,4,3,4,4,4,2,158,Poland,White,25
-279,18-25,female,master,Engineering,212,4,4,3,4,4,4,4,212,Venezuela,Other,27
+279,18-25,female,master,Engineering,212,4,4,3,4,4,4,4,212,Venezuela,South America,27
 280,26-30,female,master,Engineering,91,4,4,3,2,4,4,4,91,India,South Asia,25
 281,36-40,female,phd,Mathematics,109,3,3,5,4,4,4,3,109,Lebanon,Middle East,26
 282,26-30,male,master,Computer Science,44,3,3,3,3,4,4,4,44,China,East Asia,24
@@ -296,31 +296,31 @@
 294,26-30,male,master,Engineering,91,4,4,5,4,3,3,3,91,India,South Asia,26
 295,31-35,male,master,Engineering,44,5,4,3,3,4,4,5,44,China,East Asia,28
 296,26-30,female,phd,Engineering,44,4,5,4,5,4,5,4,44,China,East Asia,31
-297,31-35,male,phd,Engineering,93,3,4,4,4,3,3,3,93,Iran,Other,24
+297,31-35,male,phd,Engineering,93,3,4,4,4,3,3,3,93,Iran,Middle East,24
 298,31-35,male,master,Mathematics,161,4,4,4,3,4,3,4,161,Republic of Korea,East Asia,26
 299,31-35,male,phd,Computer Science,91,2,3,2,4,4,2,4,91,India,South Asia,21
 300,31-35,male,phd,Engineering,91,4,4,4,5,4,4,4,91,India,South Asia,29
 301,31-35,male,phd,Computer Science,53,4,3,4,5,4,4,3,53,Cyprus,Middle East,27
 302,31-35,male,phd,Computer Science,19,4,4,4,5,3,3,4,19,Bangladesh,South Asia,27
 303,31-35,male,phd,Life Sciences,44,5,5,5,5,5,5,5,44,China,East Asia,35
-304,31-35,male,phd,Engineering,198,3,3,3,3,3,3,3,198,Turkey,Other,21
-305,31-35,male,phd,Engineering,60,3,3,4,4,3,2,4,60,Egypt,Africa,23
+304,31-35,male,phd,Engineering,198,3,3,3,3,3,3,3,198,Turkey,Middle East,21
+305,31-35,male,phd,Engineering,60,3,3,4,4,3,2,4,60,Egypt,Black,23
 306,36-40,male,phd,Engineering,91,3,4,3,3,3,4,4,91,India,South Asia,24
 307,31-35,male,phd,Life Sciences,91,3,3,2,3,3,4,4,91,India,South Asia,22
 308,31-35,male,phd,Physical Sciences,172,3,3,3,3,3,3,3,172,Singapore,East Asia,21
 309,26-30,male,phd,Engineering,44,3,3,4,5,4,4,4,44,China,East Asia,27
-310,26-30,female,phd,Engineering,212,5,5,5,5,5,5,3,212,Venezuela,Other,33
+310,26-30,female,phd,Engineering,212,5,5,5,5,5,5,3,212,Venezuela,South America,33
 311,26-30,male,master,Engineering,91,4,5,3,3,4,5,5,91,India,South Asia,29
-312,36-40,female,phd,Life Sciences,198,5,5,5,5,5,5,5,198,Turkey,Other,35
-313,<18,male,phd,Computer Science,129,2,5,5,4,2,2,1,129,Mexico,Other,21
+312,36-40,female,phd,Life Sciences,198,5,5,5,5,5,5,5,198,Turkey,Middle East,35
+313,<18,male,phd,Computer Science,129,2,5,5,4,2,2,1,129,Mexico,South America,21
 314,41-45,male,phd,Mathematics,157,5,5,3,5,5,5,5,157,Philippines,South Asia,33
 315,36-40,female,phd,Engineering,44,5,3,3,4,4,3,3,44,China,East Asia,25
 316,31-35,female,phd,Life Sciences,76,4,4,3,4,3,4,4,76,Germany,White,26
-317,31-35,female,phd,Life Sciences,93,4,5,4,5,5,5,5,93,Iran,Other,33
-318,26-30,male,master,Engineering,30,3,3,3,1,3,4,3,30,Brazil,Other,20
+317,31-35,female,phd,Life Sciences,93,4,5,4,5,5,5,5,93,Iran,Middle East,33
+318,26-30,male,master,Engineering,30,3,3,3,1,3,4,3,30,Brazil,South America,20
 319,26-30,male,phd,Engineering,91,3,3,5,4,5,5,5,91,India,South Asia,30
 320,26-30,male,phd,Engineering,91,5,5,5,3,5,5,5,91,India,South Asia,33
-321,31-35,female,master,Engineering,60,4,5,3,3,4,3,3,60,Egypt,Africa,25
+321,31-35,female,master,Engineering,60,4,5,3,3,4,3,3,60,Egypt,Black,25
 322,26-30,male,phd,Engineering,44,4,4,5,5,5,5,4,44,China,East Asia,32
 323,31-35,male,phd,Computer Science,44,4,4,4,4,3,3,3,44,China,East Asia,25
 324,31-35,female,phd,Mathematics,44,4,4,4,2,3,4,4,44,China,East Asia,25
@@ -337,15 +337,15 @@
 335,26-30,male,master,Engineering,91,3,5,3,5,5,5,3,91,India,South Asia,29
 336,31-35,female,phd,Mathematics,172,3,1,5,5,3,3,3,172,Singapore,East Asia,23
 337,31-35,female,phd,Mathematics,44,4,4,4,3,4,4,4,44,China,East Asia,27
-338,31-35,female,phd,Engineering,45,3,2,2,5,3,4,3,45,Colombia,Other,22
+338,31-35,female,phd,Engineering,45,3,2,2,5,3,4,3,45,Colombia,South America,22
 339,41-45,female,phd,Life Sciences,161,5,4,5,4,5,4,4,161,Republic of Korea,East Asia,31
 340,41-45,male,phd,Physical Sciences,172,5,3,1,5,5,1,2,172,Singapore,East Asia,22
-341,36-40,male,phd,Computer Science,198,3,3,3,4,3,3,4,198,Turkey,Other,23
+341,36-40,male,phd,Computer Science,198,3,3,3,4,3,3,4,198,Turkey,Middle East,23
 342,31-35,female,phd,Physical Sciences,190,5,3,3,3,4,4,4,190,Taiwan,East Asia,26
-343,31-35,female,phd,Mathematics,198,3,3,3,4,3,3,3,198,Turkey,Other,22
-344,31-35,female,master,Life Sciences,156,4,4,5,5,3,4,5,156,Peru,Other,30
+343,31-35,female,phd,Mathematics,198,3,3,3,4,3,3,3,198,Turkey,Middle East,22
+344,31-35,female,master,Life Sciences,156,4,4,5,5,3,4,5,156,Peru,South America,30
 345,26-30,male,phd,Computer Science,70,4,2,2,5,3,5,3,70,France,White,24
-346,31-35,male,phd,Life Sciences,129,5,3,3,5,3,3,5,129,Mexico,Other,27
+346,31-35,male,phd,Life Sciences,129,5,3,3,5,3,3,5,129,Mexico,South America,27
 347,31-35,male,phd,Physical Sciences,91,5,3,4,5,4,4,3,91,India,South Asia,28
 348,31-35,male,master,Computer Science,44,2,3,1,2,2,4,1,44,China,East Asia,15
 349,26-30,male,phd,Engineering,91,5,5,5,5,5,5,5,91,India,South Asia,35
@@ -360,16 +360,16 @@
 358,31-35,male,phd,Life Sciences,91,4,4,3,3,3,3,4,91,India,South Asia,24
 359,31-35,male,phd,Physical Sciences,88,4,4,4,3,3,3,3,88,Hong Kong,East Asia,24
 360,31-35,male,phd,Computer Science,91,3,4,4,3,3,4,3,91,India,South Asia,24
-361,31-35,male,phd,Physical Sciences,156,3,4,5,4,3,3,3,156,Peru,Other,25
+361,31-35,male,phd,Physical Sciences,156,3,4,5,4,3,3,3,156,Peru,South America,25
 362,31-35,male,phd,Life Sciences,38,2,1,2,3,3,3,3,38,Canada,White,17
 363,26-30,female,master,Life Sciences,91,3,4,4,5,4,2,2,91,India,South Asia,24
 364,26-30,female,master,Engineering,190,3,4,4,3,3,3,5,190,Taiwan,East Asia,25
 365,31-35,male,phd,Life Sciences,91,5,5,5,5,4,4,4,91,India,South Asia,32
-366,31-35,female,phd,Engineering,49,4,5,5,4,4,5,5,49,Costa Rica,Other,32
+366,31-35,female,phd,Engineering,49,4,5,5,4,4,5,5,49,Costa Rica,South America,32
 367,26-30,female,master,Engineering,91,4,4,4,3,4,4,4,91,India,South Asia,27
 368,31-35,female,phd,Physical Sciences,91,5,4,3,5,4,4,5,91,India,South Asia,30
 369,26-30,male,master,Engineering,91,4,4,4,4,4,4,4,91,India,South Asia,28
-370,36-40,female,phd,Engineering,93,4,2,4,5,4,4,3,93,Iran,Other,26
+370,36-40,female,phd,Engineering,93,4,2,4,5,4,4,3,93,Iran,Middle East,26
 371,31-35,female,phd,Physical Sciences,190,5,3,3,5,5,4,3,190,Taiwan,East Asia,28
 372,31-35,male,phd,Mathematics,44,4,5,5,2,4,4,4,44,China,East Asia,28
 373,31-35,male,phd,Engineering,44,3,4,4,5,5,5,3,44,China,East Asia,29
@@ -377,16 +377,16 @@
 375,36-40,male,phd,Physical Sciences,161,4,4,4,2,4,2,3,161,Republic of Korea,East Asia,23
 376,26-30,female,master,Engineering,44,4,3,3,3,3,3,3,44,China,East Asia,22
 377,31-35,male,phd,Computer Science,91,5,5,5,3,3,3,3,91,India,South Asia,27
-378,31-35,male,phd,Computer Science,30,3,3,3,5,4,4,4,30,Brazil,Other,26
+378,31-35,male,phd,Computer Science,30,3,3,3,5,4,4,4,30,Brazil,South America,26
 379,26-30,male,master,Engineering,91,4,4,3,5,4,4,5,91,India,South Asia,29
-380,26-30,male,master,Engineering,30,5,4,5,4,4,5,5,30,Brazil,Other,32
+380,26-30,male,master,Engineering,30,5,4,5,4,4,5,5,30,Brazil,South America,32
 381,26-30,male,master,Engineering,91,4,5,5,4,4,4,4,91,India,South Asia,30
 382,31-35,female,phd,Engineering,76,4,3,3,3,3,4,4,76,Germany,White,24
 383,26-30,male,phd,Engineering,91,3,2,4,4,3,2,3,91,India,South Asia,21
 384,26-30,female,master,Engineering,70,5,3,3,5,3,3,2,70,France,White,24
 385,31-35,female,phd,Engineering,44,4,4,4,4,4,4,4,44,China,East Asia,28
 386,31-35,male,phd,Engineering,91,4,4,4,5,5,5,5,91,India,South Asia,32
-387,31-35,male,phd,Engineering,198,4,2,3,5,3,4,4,198,Turkey,Other,25
+387,31-35,male,phd,Engineering,198,4,2,3,5,3,4,4,198,Turkey,Middle East,25
 388,31-35,male,phd,Engineering,91,4,3,4,5,4,4,3,91,India,South Asia,27
 389,26-30,female,phd,Life Sciences,150,5,5,5,5,5,5,5,150,Pakistan,Middle East,35
 390,36-40,male,phd,Life Sciences,150,5,5,4,5,5,5,5,150,Pakistan,Middle East,34
@@ -401,7 +401,7 @@
 399,26-30,male,phd,Mathematics,89,3,4,4,5,5,5,3,89,Hungary,White,29
 400,26-30,male,phd,Computer Science,44,3,5,5,2,3,3,3,44,China,East Asia,24
 401,26-30,male,master,Engineering,44,3,4,4,2,3,4,3,44,China,East Asia,23
-402,31-35,male,phd,Physical Sciences,93,3,3,4,4,3,3,3,93,Iran,Other,23
+402,31-35,male,phd,Physical Sciences,93,3,3,4,4,3,3,3,93,Iran,Middle East,23
 403,26-30,male,master,Engineering,91,4,2,4,5,5,5,5,91,India,South Asia,30
 404,26-30,male,phd,Physical Sciences,91,2,2,3,3,2,4,3,91,India,South Asia,19
 405,31-35,na,phd,Computer Science,172,5,5,5,5,5,5,5,172,Singapore,East Asia,35
@@ -410,7 +410,7 @@
 408,26-30,female,master,Engineering,44,4,4,4,4,4,4,4,44,China,East Asia,28
 409,31-35,male,phd,Engineering,97,3,3,4,4,3,4,4,97,Italy,White,25
 410,31-35,female,phd,Engineering,91,1,1,3,1,1,3,3,91,India,South Asia,13
-411,31-35,female,phd,Engineering,93,5,3,3,4,4,2,2,93,Iran,Other,23
+411,31-35,female,phd,Engineering,93,5,3,3,4,4,2,2,93,Iran,Middle East,23
 412,31-35,female,phd,Life Sciences,157,4,4,4,5,4,4,1,157,Philippines,South Asia,26
 413,26-30,female,master,Mathematics,44,5,5,5,5,5,5,5,44,China,East Asia,35
 414,36-40,male,phd,Engineering,150,4,4,4,5,5,5,5,150,Pakistan,Middle East,32
@@ -420,12 +420,12 @@
 418,31-35,female,phd,Physical Sciences,44,5,3,3,3,5,5,5,44,China,East Asia,29
 419,31-35,male,phd,Mathematics,51,4,3,4,5,4,5,5,51,Croatia,White,30
 420,31-35,male,phd,Engineering,91,3,3,3,4,3,3,4,91,India,South Asia,23
-421,31-35,male,phd,Engineering,146,5,5,5,5,5,5,5,146,Nigeria,Africa,35
+421,31-35,male,phd,Engineering,146,5,5,5,5,5,5,5,146,Nigeria,Black,35
 422,31-35,male,master,Engineering,161,4,3,4,5,4,4,5,161,Republic of Korea,East Asia,29
 423,26-30,male,master,Mathematics,193,4,4,4,4,4,3,2,193,Thailand,East Asia,25
 424,31-35,male,phd,Life Sciences,150,4,4,4,5,5,4,4,150,Pakistan,Middle East,30
 425,26-30,male,phd,Engineering,109,5,5,4,5,3,4,3,109,Lebanon,Middle East,29
-426,31-35,female,phd,Engineering,198,3,3,3,4,3,3,3,198,Turkey,Other,22
+426,31-35,female,phd,Engineering,198,3,3,3,4,3,3,3,198,Turkey,Middle East,22
 427,26-30,male,master,Life Sciences,44,3,5,4,5,3,2,2,44,China,East Asia,24
 428,26-30,male,master,Computer Science,91,3,3,4,3,3,3,3,91,India,South Asia,22
 429,26-30,female,master,Engineering,91,4,4,4,4,5,5,5,91,India,South Asia,31
@@ -442,7 +442,7 @@
 440,26-30,male,master,Computer Science,91,4,3,3,3,3,3,5,91,India,South Asia,24
 441,26-30,male,master,Computer Science,91,4,3,5,5,4,5,4,91,India,South Asia,30
 442,31-35,female,phd,Computer Science,91,5,5,5,5,5,5,5,91,India,South Asia,35
-443,36-40,male,phd,Computer Science,45,3,3,3,5,3,4,5,45,Colombia,Other,26
+443,36-40,male,phd,Computer Science,45,3,3,3,5,3,4,5,45,Colombia,South America,26
 444,36-40,male,phd,Computer Science,91,4,2,3,4,4,3,4,91,India,South Asia,24
 445,26-30,male,master,Computer Science,91,3,3,4,5,4,4,4,91,India,South Asia,27
 446,26-30,male,master,Engineering,91,3,3,4,4,4,5,5,91,India,South Asia,28
@@ -459,10 +459,10 @@
 457,26-30,male,master,Computer Science,91,3,5,4,4,3,4,4,91,India,South Asia,27
 458,26-30,male,phd,Physical Sciences,95,4,3,4,3,3,5,4,95,Ireland,White,26
 459,26-30,male,master,Computer Science,91,3,3,5,4,3,3,3,91,India,South Asia,24
-460,31-35,female,phd,Engineering,198,3,2,2,5,3,4,4,198,Turkey,Other,23
+460,31-35,female,phd,Engineering,198,3,2,2,5,3,4,4,198,Turkey,Middle East,23
 461,31-35,male,phd,Computer Science,44,4,4,4,4,4,4,4,44,China,East Asia,28
-462,31-35,female,master,Engineering,30,3,5,4,3,3,5,3,30,Brazil,Other,26
-463,31-35,male,master,Engineering,30,2,3,2,4,3,3,3,30,Brazil,Other,20
+462,31-35,female,master,Engineering,30,3,5,4,3,3,5,3,30,Brazil,South America,26
+463,31-35,male,master,Engineering,30,2,3,2,4,3,3,3,30,Brazil,South America,20
 464,26-30,female,phd,Physical Sciences,44,4,3,3,3,3,3,2,44,China,East Asia,21
 465,26-30,female,phd,Mathematics,44,4,3,3,3,4,4,4,44,China,East Asia,25
 466,36-40,male,phd,Life Sciences,38,3,3,3,4,3,4,3,38,Canada,White,23
@@ -490,20 +490,20 @@
 488,31-35,female,phd,Life Sciences,109,3,3,3,3,3,3,3,109,Lebanon,Middle East,21
 489,26-30,male,phd,Mathematics,44,5,5,5,5,5,5,5,44,China,East Asia,35
 490,31-35,male,phd,Computer Science,44,4,4,4,3,4,4,4,44,China,East Asia,27
-491,36-40,male,phd,Life Sciences,102,5,5,5,5,5,5,5,102,Kenya,Africa,35
+491,36-40,male,phd,Life Sciences,102,5,5,5,5,5,5,5,102,Kenya,Black,35
 492,26-30,female,phd,Physical Sciences,44,4,4,4,3,3,4,3,44,China,East Asia,25
-493,31-35,female,phd,Life Sciences,45,3,3,3,5,3,3,3,45,Colombia,Other,23
+493,31-35,female,phd,Life Sciences,45,3,3,3,5,3,3,3,45,Colombia,South America,23
 494,26-30,male,phd,Physical Sciences,44,5,5,5,5,5,5,5,44,China,East Asia,35
 495,26-30,male,phd,Mathematics,76,3,3,3,2,3,3,3,76,Germany,White,20
 496,26-30,male,master,Engineering,91,4,5,4,4,3,4,2,91,India,South Asia,26
-497,26-30,female,phd,Life Sciences,45,3,3,4,5,4,5,5,45,Colombia,Other,29
+497,26-30,female,phd,Life Sciences,45,3,3,4,5,4,5,5,45,Colombia,South America,29
 498,36-40,male,phd,Life Sciences,161,4,1,3,3,3,3,2,161,Republic of Korea,East Asia,19
 499,31-35,male,phd,Physical Sciences,164,4,2,4,4,3,1,3,164,Russia,White,21
 500,36-40,female,phd,Engineering,91,4,4,5,5,3,3,4,91,India,South Asia,28
 501,26-30,male,phd,Mathematics,44,4,4,4,3,4,4,5,44,China,East Asia,28
 502,26-30,male,phd,Life Sciences,44,5,4,3,4,3,4,2,44,China,East Asia,25
 503,31-35,female,phd,Engineering,44,3,3,4,4,3,3,2,44,China,East Asia,22
-504,31-35,female,phd,Life Sciences,60,5,5,5,5,5,4,4,60,Egypt,Africa,33
+504,31-35,female,phd,Life Sciences,60,5,5,5,5,5,4,4,60,Egypt,Black,33
 505,31-35,female,phd,Mathematics,44,4,3,4,3,4,4,4,44,China,East Asia,26
 506,26-30,male,phd,Physical Sciences,44,3,3,3,5,4,5,3,44,China,East Asia,26
 507,31-35,male,phd,Physical Sciences,193,4,3,3,5,4,3,3,193,Thailand,East Asia,25
@@ -515,7 +515,7 @@
 513,36-40,female,phd,Engineering,92,5,4,5,5,5,5,5,92,Indonesia,East Asia,34
 514,31-35,female,phd,Life Sciences,44,4,4,4,5,4,4,4,44,China,East Asia,29
 515,26-30,male,phd,Physical Sciences,44,4,4,4,5,4,3,2,44,China,East Asia,26
-516,31-35,na,phd,Mathematics,198,2,5,5,4,4,4,1,198,Turkey,Other,25
+516,31-35,na,phd,Mathematics,198,2,5,5,4,4,4,1,198,Turkey,Middle East,25
 517,31-35,male,master,Engineering,91,5,5,5,5,5,4,4,91,India,South Asia,33
 518,31-35,male,master,Engineering,19,3,4,3,4,4,3,4,19,Bangladesh,South Asia,25
 519,31-35,male,phd,Engineering,44,4,4,4,5,4,5,5,44,China,East Asia,31
@@ -527,32 +527,32 @@
 525,26-30,na,phd,Physical Sciences,44,5,5,4,5,5,5,5,44,China,East Asia,34
 526,36-40,male,phd,Engineering,190,4,4,3,3,4,4,4,190,Taiwan,East Asia,26
 527,31-35,female,phd,Physical Sciences,44,4,5,4,3,3,3,4,44,China,East Asia,26
-528,26-30,female,phd,Life Sciences,146,5,5,5,5,5,5,5,146,Nigeria,Africa,35
+528,26-30,female,phd,Life Sciences,146,5,5,5,5,5,5,5,146,Nigeria,Black,35
 529,36-40,female,phd,Computer Science,44,5,5,4,4,5,4,3,44,China,East Asia,30
 530,26-30,male,phd,Mathematics,44,3,3,3,4,3,3,3,44,China,East Asia,22
-531,36-40,male,phd,Mathematics,198,5,5,4,5,5,5,4,198,Turkey,Other,33
+531,36-40,male,phd,Mathematics,198,5,5,4,5,5,5,4,198,Turkey,Middle East,33
 532,26-30,male,phd,Engineering,100,3,3,3,1,4,1,2,100,Jordan,Middle East,17
 533,31-35,female,phd,Mathematics,44,4,4,4,3,3,4,5,44,China,East Asia,27
 534,26-30,female,phd,Computer Science,44,4,3,3,5,3,5,5,44,China,East Asia,28
 535,31-35,male,phd,Engineering,91,3,4,4,3,3,3,3,91,India,South Asia,23
 536,26-30,female,master,Life Sciences,91,3,3,3,4,2,2,2,91,India,South Asia,19
 537,31-35,female,master,Mathematics,44,5,4,4,3,4,4,3,44,China,East Asia,27
-538,26-30,female,phd,Mathematics,93,3,4,3,5,3,4,3,93,Iran,Other,25
-539,26-30,male,phd,Computer Science,93,4,5,4,3,4,4,5,93,Iran,Other,29
+538,26-30,female,phd,Mathematics,93,3,4,3,5,3,4,3,93,Iran,Middle East,25
+539,26-30,male,phd,Computer Science,93,4,5,4,3,4,4,5,93,Iran,Middle East,29
 540,31-35,male,phd,Physical Sciences,91,3,3,3,3,3,4,3,91,India,South Asia,22
-541,31-35,male,phd,Engineering,93,3,3,3,5,4,5,3,93,Iran,Other,26
+541,31-35,male,phd,Engineering,93,3,3,3,5,4,5,3,93,Iran,Middle East,26
 542,31-35,female,phd,Life Sciences,121,4,4,4,5,5,5,5,121,Malaysia,East Asia,32
-543,31-35,female,phd,Life Sciences,129,4,4,4,5,3,3,4,129,Mexico,Other,27
+543,31-35,female,phd,Life Sciences,129,4,4,4,5,3,3,4,129,Mexico,South America,27
 544,31-35,female,phd,Engineering,180,5,5,4,5,5,5,4,180,Sri Lanka,South Asia,33
 545,31-35,male,phd,Life Sciences,91,3,3,5,5,4,4,5,91,India,South Asia,29
 546,26-30,male,phd,Engineering,168,4,4,4,3,4,5,5,168,Saudi Arabia,Middle East,29
-547,26-30,na,phd,Life Sciences,198,3,2,3,5,4,4,3,198,Turkey,Other,24
+547,26-30,na,phd,Life Sciences,198,3,2,3,5,4,4,3,198,Turkey,Middle East,24
 548,31-35,male,phd,Physical Sciences,91,3,3,2,4,3,3,3,91,India,South Asia,21
 549,26-30,male,master,Computer Science,70,4,4,3,3,3,4,3,70,France,White,24
 550,26-30,male,phd,Mathematics,205,3,2,3,3,3,3,3,205,United Kingdom,White,20
 551,41-45,male,master,Computer Science,38,3,3,3,3,3,3,2,38,Canada,White,20
 552,26-30,male,phd,Physical Sciences,38,5,5,5,5,5,5,5,38,Canada,White,35
-553,41-45,female,phd,Life Sciences,11,2,2,3,5,3,5,5,11,Argentina,Other,25
+553,41-45,female,phd,Life Sciences,11,2,2,3,5,3,5,5,11,Argentina,South America,25
 554,31-35,male,master,Computer Science,44,4,4,4,4,4,4,4,44,China,East Asia,28
 555,26-30,female,master,Computer Science,91,5,5,5,5,5,5,5,91,India,South Asia,35
 556,26-30,male,master,Computer Science,44,5,4,5,3,5,5,4,44,China,East Asia,31
@@ -572,10 +572,10 @@
 570,31-35,male,phd,Physical Sciences,44,5,4,3,4,3,2,4,44,China,East Asia,25
 571,26-30,female,master,Engineering,44,4,4,4,5,4,4,4,44,China,East Asia,29
 572,36-40,male,phd,Engineering,190,4,4,4,4,4,4,4,190,Taiwan,East Asia,28
-573,26-30,male,phd,Mathematics,45,3,2,4,3,3,3,5,45,Colombia,Other,23
-574,26-30,male,master,Engineering,129,3,5,4,5,3,4,3,129,Mexico,Other,27
+573,26-30,male,phd,Mathematics,45,3,2,4,3,3,3,5,45,Colombia,South America,23
+574,26-30,male,master,Engineering,129,3,5,4,5,3,4,3,129,Mexico,South America,27
 575,26-30,male,phd,Engineering,91,3,4,4,5,3,3,3,91,India,South Asia,25
-576,26-30,female,master,Life Sciences,129,3,3,5,4,4,5,2,129,Mexico,Other,26
+576,26-30,female,master,Life Sciences,129,3,3,5,4,4,5,2,129,Mexico,South America,26
 577,26-30,male,phd,Engineering,91,4,5,5,3,5,5,5,91,India,South Asia,32
 578,31-35,male,phd,Engineering,97,3,2,2,5,3,5,5,97,Italy,White,25
 579,26-30,female,phd,Mathematics,179,3,3,3,3,3,3,3,179,Spain,White,21
@@ -587,21 +587,21 @@
 585,26-30,female,master,Engineering,44,5,4,3,4,3,4,3,44,China,East Asia,26
 586,26-30,male,master,Engineering,91,4,4,4,5,5,5,4,91,India,South Asia,31
 587,36-40,male,phd,Life Sciences,92,4,5,4,5,4,5,5,92,Indonesia,East Asia,32
-588,26-30,female,phd,Engineering,198,2,4,3,3,3,4,2,198,Turkey,Other,21
+588,26-30,female,phd,Engineering,198,2,4,3,3,3,4,2,198,Turkey,Middle East,21
 589,26-30,male,master,Engineering,161,5,3,4,4,4,4,3,161,Republic of Korea,East Asia,27
-590,36-40,male,phd,Life Sciences,202,4,5,5,5,3,5,3,202,Uganda,Africa,30
+590,36-40,male,phd,Life Sciences,202,4,5,5,5,3,5,3,202,Uganda,Black,30
 591,31-35,male,phd,Engineering,91,5,5,5,5,5,5,5,91,India,South Asia,35
 592,26-30,male,phd,Engineering,44,5,4,4,3,5,4,2,44,China,East Asia,27
 593,31-35,male,phd,Life Sciences,193,5,4,3,5,5,5,5,193,Thailand,East Asia,32
 594,26-30,male,master,Engineering,109,3,3,5,3,3,3,2,109,Lebanon,Middle East,22
-595,26-30,female,phd,Life Sciences,198,5,4,4,5,5,5,5,198,Turkey,Other,33
+595,26-30,female,phd,Life Sciences,198,5,4,4,5,5,5,5,198,Turkey,Middle East,33
 596,36-40,male,phd,Computer Science,91,5,5,5,5,5,5,5,91,India,South Asia,35
 597,26-30,male,phd,Computer Science,91,3,3,3,4,3,4,4,91,India,South Asia,24
 598,31-35,male,phd,Physical Sciences,121,4,3,3,3,4,4,4,121,Malaysia,East Asia,25
 599,31-35,male,phd,Life Sciences,44,5,3,4,5,4,5,3,44,China,East Asia,29
 600,31-35,male,phd,Physical Sciences,44,2,2,2,2,2,2,2,44,China,East Asia,14
 601,31-35,female,phd,Physical Sciences,44,3,4,3,5,4,4,3,44,China,East Asia,26
-602,31-35,male,phd,Mathematics,177,4,4,5,5,3,4,5,177,South Africa,Africa,30
+602,31-35,male,phd,Mathematics,177,4,4,5,5,3,4,5,177,South Africa,Black,30
 603,31-35,male,phd,Mathematics,159,3,3,3,4,3,3,3,159,Portugal,White,22
 604,31-35,male,phd,Computer Science,132,3,4,3,3,3,3,5,132,Mongolia,East Asia,24
 605,31-35,female,phd,Mathematics,44,5,4,5,5,5,4,4,44,China,East Asia,32
@@ -611,22 +611,22 @@
 609,26-30,female,phd,Life Sciences,44,5,4,4,5,4,3,3,44,China,East Asia,28
 610,31-35,female,phd,Life Sciences,159,5,4,4,4,2,2,2,159,Portugal,White,23
 611,31-35,female,phd,Life Sciences,92,5,5,5,5,5,5,5,92,Indonesia,East Asia,35
-612,31-35,female,phd,Mathematics,198,3,3,4,5,4,3,3,198,Turkey,Other,25
-613,31-35,male,phd,Mathematics,49,4,4,4,5,4,5,5,49,Costa Rica,Other,31
+612,31-35,female,phd,Mathematics,198,3,3,4,5,4,3,3,198,Turkey,Middle East,25
+613,31-35,male,phd,Mathematics,49,4,4,4,5,4,5,5,49,Costa Rica,South America,31
 614,31-35,male,phd,Life Sciences,44,4,4,4,4,4,4,4,44,China,East Asia,28
 615,26-30,female,master,Computer Science,91,2,5,4,5,4,3,4,91,India,South Asia,27
 616,31-35,female,phd,Physical Sciences,79,3,4,3,4,4,4,4,79,Greece,White,26
-617,31-35,male,phd,Physical Sciences,45,5,5,5,5,5,5,5,45,Colombia,Other,35
+617,31-35,male,phd,Physical Sciences,45,5,5,5,5,5,5,5,45,Colombia,South America,35
 618,26-30,female,phd,Mathematics,163,5,5,3,5,5,5,3,163,Romania,White,31
 619,31-35,female,master,Computer Science,91,5,4,4,5,5,5,4,91,India,South Asia,32
 620,36-40,male,phd,Computer Science,51,5,5,4,5,4,5,5,51,Croatia,White,33
 621,31-35,male,phd,Life Sciences,91,5,4,4,5,5,5,5,91,India,South Asia,33
-622,26-30,male,phd,Physical Sciences,198,3,3,4,4,3,4,4,198,Turkey,Other,25
+622,26-30,male,phd,Physical Sciences,198,3,3,4,4,3,4,4,198,Turkey,Middle East,25
 623,26-30,male,phd,Physical Sciences,44,3,3,4,4,3,3,3,44,China,East Asia,23
 624,26-30,male,phd,Physical Sciences,139,5,4,5,5,4,5,5,139,Nepal,South Asia,33
 625,31-35,male,phd,Life Sciences,96,3,2,2,5,3,3,3,96,Israel,Middle East,21
 626,26-30,male,phd,Physical Sciences,97,3,2,3,5,3,2,3,97,Italy,White,21
-627,26-30,male,phd,Engineering,177,3,3,5,3,3,3,4,177,South Africa,Africa,24
+627,26-30,male,phd,Engineering,177,3,3,5,3,3,3,4,177,South Africa,Black,24
 628,26-30,male,master,Computer Science,44,5,5,5,5,5,5,5,44,China,East Asia,35
 629,26-30,female,phd,Life Sciences,16,3,3,3,5,3,4,3,16,Azerbaijan,Middle East,24
 630,26-30,male,master,Engineering,91,3,4,5,3,3,4,4,91,India,South Asia,26
@@ -638,20 +638,20 @@
 636,36-40,male,phd,Computer Science,190,4,3,3,4,4,4,4,190,Taiwan,East Asia,26
 637,36-40,male,phd,Engineering,161,4,4,4,3,4,4,3,161,Republic of Korea,East Asia,26
 638,31-35,male,phd,Computer Science,105,1,5,5,5,5,5,1,105,Kuwait,Middle East,27
-639,31-35,male,phd,Life Sciences,30,3,3,3,5,3,5,3,30,Brazil,Other,25
+639,31-35,male,phd,Life Sciences,30,3,3,3,5,3,5,3,30,Brazil,South America,25
 640,26-30,female,master,Engineering,91,3,3,4,5,4,5,3,91,India,South Asia,27
 641,31-35,male,phd,Physical Sciences,44,5,3,3,3,3,3,3,44,China,East Asia,23
 642,31-35,female,phd,Engineering,44,4,4,4,5,5,4,4,44,China,East Asia,30
 643,36-40,male,master,Engineering,19,5,4,4,5,3,4,4,19,Bangladesh,South Asia,29
 644,26-30,female,phd,Life Sciences,164,3,3,4,5,5,5,5,164,Russia,White,30
-645,26-30,female,phd,Life Sciences,45,3,3,5,5,3,5,5,45,Colombia,Other,29
+645,26-30,female,phd,Life Sciences,45,3,3,5,5,3,5,5,45,Colombia,South America,29
 646,26-30,male,master,Computer Science,190,4,3,3,3,3,3,5,190,Taiwan,East Asia,24
 647,36-40,male,phd,Engineering,92,5,4,5,5,4,4,3,92,Indonesia,East Asia,30
 648,31-35,male,phd,Physical Sciences,91,5,3,3,4,4,3,3,91,India,South Asia,25
 649,26-30,male,phd,Engineering,44,4,3,4,5,3,3,3,44,China,East Asia,25
 650,26-30,female,phd,Mathematics,44,2,1,1,5,2,2,1,44,China,East Asia,14
 651,36-40,na,phd,Engineering,44,4,4,4,4,4,4,4,44,China,East Asia,28
-652,26-30,female,phd,Mathematics,153,3,3,3,4,3,3,3,153,Panama,Other,22
+652,26-30,female,phd,Mathematics,153,3,3,3,4,3,3,3,153,Panama,South America,22
 653,26-30,male,phd,Engineering,44,5,5,5,5,5,5,5,44,China,East Asia,35
 654,26-30,male,phd,Engineering,190,4,3,3,4,4,3,3,190,Taiwan,East Asia,24
 655,26-30,female,master,Engineering,91,3,5,4,5,4,4,4,91,India,South Asia,29
@@ -659,7 +659,7 @@
 657,31-35,female,phd,Computer Science,5,3,4,3,4,3,4,3,5,Albania,White,24
 658,31-35,male,phd,Life Sciences,91,5,4,3,5,5,5,4,91,India,South Asia,31
 659,31-35,male,phd,Computer Science,91,3,3,3,4,3,3,3,91,India,South Asia,22
-660,31-35,female,phd,Life Sciences,45,2,3,4,5,2,4,2,45,Colombia,Other,22
+660,31-35,female,phd,Life Sciences,45,2,3,4,5,2,4,2,45,Colombia,South America,22
 661,26-30,male,master,Computer Science,91,4,3,5,3,5,5,4,91,India,South Asia,29
 662,31-35,male,phd,Computer Science,76,2,3,4,4,3,4,2,76,Germany,White,22
 663,26-30,male,phd,Engineering,44,3,3,3,3,3,3,3,44,China,East Asia,21
@@ -676,26 +676,26 @@
 674,26-30,na,phd,Mathematics,97,4,4,5,4,3,3,4,97,Italy,White,27
 675,26-30,female,phd,Engineering,44,5,5,4,2,5,4,5,44,China,East Asia,30
 676,41-45,male,phd,Life Sciences,4,5,5,5,5,5,5,5,4,Afghanistan,Middle East,35
-677,31-35,male,phd,Mathematics,129,2,3,4,5,2,2,1,129,Mexico,Other,19
+677,31-35,male,phd,Mathematics,129,2,3,4,5,2,2,1,129,Mexico,South America,19
 678,26-30,male,phd,Engineering,91,4,3,4,5,4,5,4,91,India,South Asia,29
 679,31-35,female,phd,Life Sciences,91,5,3,3,5,5,5,5,91,India,South Asia,31
 680,26-30,female,master,Mathematics,44,4,4,4,4,5,4,5,44,China,East Asia,30
 681,26-30,male,phd,Physical Sciences,91,5,4,4,5,3,4,4,91,India,South Asia,29
-682,31-35,female,phd,Life Sciences,198,4,4,3,4,4,4,4,198,Turkey,Other,27
+682,31-35,female,phd,Life Sciences,198,4,4,3,4,4,4,4,198,Turkey,Middle East,27
 683,26-30,male,phd,Engineering,44,5,4,5,5,5,5,5,44,China,East Asia,34
 684,26-30,female,master,Computer Science,91,5,5,5,5,5,5,5,91,India,South Asia,35
 685,26-30,male,master,Engineering,44,3,3,4,2,3,5,4,44,China,East Asia,24
 686,31-35,female,phd,Engineering,44,4,5,5,5,3,3,3,44,China,East Asia,28
 687,26-30,male,phd,Mathematics,88,4,2,2,5,3,5,3,88,Hong Kong,East Asia,24
-688,41-45,male,phd,Life Sciences,77,4,4,4,5,4,4,3,77,Ghana,Africa,28
+688,41-45,male,phd,Life Sciences,77,4,4,4,5,4,4,3,77,Ghana,Black,28
 689,31-35,male,phd,Engineering,91,3,4,4,3,5,5,4,91,India,South Asia,28
 690,31-35,male,phd,Engineering,79,4,3,4,5,5,5,5,79,Greece,White,31
 691,31-35,male,phd,Engineering,19,2,2,5,5,2,4,3,19,Bangladesh,South Asia,23
 692,31-35,male,phd,Computer Science,190,3,3,4,5,5,5,4,190,Taiwan,East Asia,29
-693,31-35,female,phd,Engineering,93,3,3,3,5,3,3,3,93,Iran,Other,23
+693,31-35,female,phd,Engineering,93,3,3,3,5,3,3,3,93,Iran,Middle East,23
 694,31-35,female,phd,Life Sciences,91,5,5,5,5,5,5,5,91,India,South Asia,35
 695,26-30,male,phd,Mathematics,44,5,5,5,5,5,5,5,44,China,East Asia,35
-696,36-40,male,phd,Computer Science,93,3,3,3,5,3,3,5,93,Iran,Other,25
+696,36-40,male,phd,Computer Science,93,3,3,3,5,3,3,5,93,Iran,Middle East,25
 697,26-30,male,master,Computer Science,44,5,5,5,5,5,5,5,44,China,East Asia,35
 698,31-35,male,phd,Physical Sciences,190,4,4,4,4,4,4,4,190,Taiwan,East Asia,28
 699,31-35,female,phd,Engineering,44,5,5,3,4,4,4,4,44,China,East Asia,29
@@ -717,22 +717,22 @@
 715,26-30,male,master,Engineering,91,4,4,4,4,4,4,4,91,India,South Asia,28
 716,31-35,male,master,Mathematics,44,5,5,4,4,5,4,3,44,China,East Asia,30
 717,26-30,male,phd,Engineering,91,4,4,4,5,4,3,3,91,India,South Asia,27
-718,31-35,male,phd,Life Sciences,102,4,4,4,4,4,4,4,102,Kenya,Africa,28
-719,26-30,female,master,Life Sciences,77,4,4,3,3,4,3,3,77,Ghana,Africa,24
+718,31-35,male,phd,Life Sciences,102,4,4,4,4,4,4,4,102,Kenya,Black,28
+719,26-30,female,master,Life Sciences,77,4,4,3,3,4,3,3,77,Ghana,Black,24
 720,31-35,male,phd,Mathematics,44,4,5,5,5,5,5,5,44,China,East Asia,34
 721,26-30,na,phd,Engineering,91,4,3,2,5,4,5,5,91,India,South Asia,28
 722,36-40,male,phd,Physical Sciences,180,5,3,5,5,5,5,3,180,Sri Lanka,South Asia,31
 723,26-30,male,master,Computer Science,91,4,3,5,4,4,4,4,91,India,South Asia,28
 724,31-35,male,phd,Physical Sciences,44,5,5,5,5,3,3,3,44,China,East Asia,29
-725,31-35,male,phd,Mathematics,198,4,3,4,5,2,4,2,198,Turkey,Other,24
-726,31-35,male,phd,Engineering,43,3,4,3,5,4,4,4,43,Chile,Other,27
+725,31-35,male,phd,Mathematics,198,4,3,4,5,2,4,2,198,Turkey,Middle East,24
+726,31-35,male,phd,Engineering,43,3,4,3,5,4,4,4,43,Chile,South America,27
 727,26-30,male,phd,Engineering,44,5,4,4,4,4,4,5,44,China,East Asia,30
 728,26-30,female,phd,Mathematics,44,4,5,5,4,4,5,4,44,China,East Asia,31
 729,31-35,male,phd,Life Sciences,4,5,5,5,5,4,4,4,4,Afghanistan,Middle East,32
-730,36-40,female,phd,Life Sciences,77,5,5,5,5,5,5,5,77,Ghana,Africa,35
+730,36-40,female,phd,Life Sciences,77,5,5,5,5,5,5,5,77,Ghana,Black,35
 731,26-30,male,master,Engineering,91,4,4,4,4,4,4,4,91,India,South Asia,28
 732,26-30,male,master,Computer Science,44,5,5,5,5,5,5,5,44,China,East Asia,35
-733,36-40,male,phd,Life Sciences,202,5,5,4,5,5,4,5,202,Uganda,Africa,33
+733,36-40,male,phd,Life Sciences,202,5,5,4,5,5,4,5,202,Uganda,Black,33
 734,31-35,male,phd,Engineering,150,5,5,5,5,5,5,5,150,Pakistan,Middle East,35
 735,26-30,female,master,Computer Science,91,4,3,4,3,3,4,4,91,India,South Asia,25
 736,31-35,male,phd,Life Sciences,168,2,3,5,5,1,1,2,168,Saudi Arabia,Middle East,19
@@ -745,25 +745,25 @@
 743,26-30,female,phd,Physical Sciences,51,5,4,5,5,4,4,4,51,Croatia,White,31
 744,26-30,female,master,Engineering,44,4,3,3,5,5,3,3,44,China,East Asia,26
 745,31-35,male,phd,Computer Science,91,3,3,3,3,4,3,4,91,India,South Asia,23
-746,31-35,male,phd,Engineering,198,3,4,3,5,3,3,4,198,Turkey,Other,25
+746,31-35,male,phd,Engineering,198,3,4,3,5,3,3,4,198,Turkey,Middle East,25
 747,26-30,male,master,Computer Science,91,4,4,4,5,5,4,4,91,India,South Asia,30
 748,31-35,male,phd,Engineering,19,4,3,4,3,3,4,4,19,Bangladesh,South Asia,25
 749,31-35,male,phd,Life Sciences,44,5,5,5,5,5,5,5,44,China,East Asia,35
 750,36-40,female,phd,Computer Science,91,4,4,3,4,3,4,4,91,India,South Asia,26
 751,26-30,male,phd,Physical Sciences,76,2,4,2,1,4,3,3,76,Germany,White,19
 752,26-30,female,master,Engineering,190,4,4,4,3,4,4,4,190,Taiwan,East Asia,27
-753,31-35,female,master,Life Sciences,30,4,4,3,5,3,4,3,30,Brazil,Other,26
+753,31-35,female,master,Life Sciences,30,4,4,3,5,3,4,3,30,Brazil,South America,26
 754,26-30,female,phd,Engineering,14,3,3,3,3,3,3,3,14,Australia,White,21
 755,26-30,male,phd,Computer Science,109,3,3,3,3,3,3,3,109,Lebanon,Middle East,21
 756,41-45,male,phd,Engineering,161,4,4,4,5,4,4,2,161,Republic of Korea,East Asia,27
-757,31-35,male,phd,Computer Science,11,3,3,3,3,3,4,3,11,Argentina,Other,22
+757,31-35,male,phd,Computer Science,11,3,3,3,3,3,4,3,11,Argentina,South America,22
 758,26-30,male,phd,Computer Science,44,4,3,4,4,4,4,3,44,China,East Asia,26
 759,26-30,male,master,Engineering,44,5,5,5,4,5,3,5,44,China,East Asia,32
 760,26-30,male,phd,Physical Sciences,91,4,5,5,4,3,4,2,91,India,South Asia,27
 761,31-35,female,phd,Life Sciences,121,5,4,5,5,5,4,3,121,Malaysia,East Asia,31
 762,26-30,female,phd,Life Sciences,91,4,4,3,5,4,3,3,91,India,South Asia,26
 763,26-30,female,phd,Life Sciences,44,4,3,3,4,4,4,4,44,China,East Asia,26
-764,31-35,male,phd,Life Sciences,45,4,3,4,5,3,3,2,45,Colombia,Other,24
+764,31-35,male,phd,Life Sciences,45,4,3,4,5,3,3,2,45,Colombia,South America,24
 765,26-30,male,phd,Mathematics,38,3,3,5,3,3,3,3,38,Canada,White,23
 766,26-30,male,phd,Physical Sciences,44,4,5,4,4,5,5,3,44,China,East Asia,30
 767,26-30,male,master,Computer Science,44,4,4,4,3,4,4,4,44,China,East Asia,27
@@ -779,7 +779,7 @@
 777,31-35,female,phd,Physical Sciences,44,5,4,3,5,4,4,5,44,China,East Asia,30
 778,26-30,male,phd,Life Sciences,44,3,2,3,3,3,3,3,44,China,East Asia,20
 779,26-30,male,phd,Mathematics,14,3,3,3,3,3,3,3,14,Australia,White,21
-780,26-30,male,master,Computer Science,30,4,5,5,5,5,5,5,30,Brazil,Other,34
+780,26-30,male,master,Computer Science,30,4,5,5,5,5,5,5,30,Brazil,South America,34
 781,26-30,male,master,Computer Science,44,5,5,3,5,5,5,2,44,China,East Asia,30
 782,26-30,female,phd,Physical Sciences,44,5,4,2,4,4,4,4,44,China,East Asia,27
 783,26-30,female,phd,Mathematics,70,4,1,3,5,3,3,4,70,France,White,23
