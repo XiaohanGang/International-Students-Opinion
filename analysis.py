@@ -114,6 +114,12 @@ regions = {
 for region, values in regions.items():
     variables[region] = variables['region'].replace(values)
     
+# Count the number of values equal to 1 in each column
+counts = variables[['East Asia', 'South Asia', 'Middle East', 'Africa', 'White', 'Other']].eq(1).sum()
+
+print("Number of students in each region:")
+print(counts)
+    
 # Set up the control variables
 
 ages = {
@@ -163,7 +169,7 @@ for discipline, values in disciplines.items():
 # Model 1 (reference: white)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other']
 
 Y = variables[dep_var]
 
@@ -181,7 +187,7 @@ print( results.summary() )
 # Model 2 (reference: <30)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Other','31-35', '36-40', '41-45']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45']
 
 Y = variables[dep_var]
 
@@ -205,7 +211,7 @@ print(betas)
 # Model 3 (reference: male)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Other','31-35', '36-40', '41-45', 'female', 'na']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45', 'female', 'na']
 
 Y = variables[dep_var]
 
@@ -229,7 +235,7 @@ print(betas)
 # Model 4 (reference: Computer Science)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Other','31-35', '36-40', '41-45', 'female', 'na', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45', 'female', 'na', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
 
 Y = variables[dep_var]
 
