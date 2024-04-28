@@ -235,7 +235,7 @@ print(betas)
 # Model 4 (reference: Computer Science)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45', 'female', 'na', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45', 'female', 'na', 'phd', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
 
 Y = variables[dep_var]
 
