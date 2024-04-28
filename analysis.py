@@ -8,7 +8,7 @@ Created on Tue Apr 23 23:56:32 2024
 
 # Install the factor analyzer to perform factor analysis. It should be run seperately at the very beginning.
 
-pip install factor-analyzer
+# pip install factor-analyzer
 
 #%%
 
@@ -23,42 +23,78 @@ import statsmodels.api as sm
 variables = pd.read_csv('data_clean.csv')
 
 
-# Produce a quick overview of the primary independent variable (country) and the control variables
+# Produce a quick overview of the primary independent variable (region) and the control variables
 
 ctr_vars = ['age', 'gender', 'degree', 'discipline', 'region']
 
 for var in ctr_vars:
     print(var)
     print(variables[var].value_counts())
-    fig = sns.catplot(y=var, data=variables, kind="count")
+    fig = sns.catplot(y=var, data=variables, kind="count", color='skyblue')
+    fig.tight_layout()
+    fig.savefig(f"{var}.png")
 
 #%%
 
 # Produce distribution of the dependent variable - attitudes
 
+## distribution of individual attitude variables
+
+### Label individual attitudes
+
+fix_name = {'att_1': 'open classroom discussion','att_2': 'professor teaching style','att_3': 'subject teaching matter','att_4': 'access to library resources','att_5': 'freedom to openly debate established theories','att_6': 'freedom to pursue new research directions','att_7': 'collaboration with other students'}
+variables = variables.rename(columns=fix_name)
+
+### set up
+
+ind_dep_vars = ['open classroom discussion', 'professor teaching style', 'subject teaching matter', 'access to library resources', 'freedom to openly debate established theories', 'freedom to pursue new research directions', 'collaboration with other students']
+
+### Create a figure and an array of subplots
+
+fig, axes = plt.subplots(7, 1, figsize=(8, 14))
+
+### Plot a histogram for each column on a separate axis
+
+for i, (col, ax) in enumerate(zip(variables[ind_dep_vars].columns, axes)):
+    sns.histplot(variables[ind_dep_vars][col], ax=ax, bins=5, color='skyblue') 
+    ax.set_title(f"Distribution of {col}") 
+    ax.set_xlabel("Attitude Rates")
+    ax.set_ylabel("Frequency")
+    fig.tight_layout()
+
+fig.savefig("Individual Attitude Comparison.png")
+
+## distribution of individual attitude variables by region
+    
+for var in ind_dep_vars:
+    fig, ax1 = plt.subplots()
+    sns.boxenplot(data=variables, x=var, y="region", orient="h", ax=ax1, color='skyblue')
+    ax1.set_title(f"{var}_by_Year")
+    fig.tight_layout()
+    fig.savefig(f"{var}.png")
+    
+
+## distribution of overall variables
+    
 fig, ax1 = plt.subplots()
 sns.histplot(data=variables, x=variables['att_rates'], hue=variables["region"], kde=True, ax=ax1)
 fig.tight_layout()
 fig.savefig("attitudes.png")
 
+
 #%%
 
-# Factor Analysis of the dependent variable
+# Factor analysis of the dependent variable
 
-df_dep_var = variables[['att_1', 'att_2', 'att_3', 'att_4', 'att_5', 'att_6', 'att_7']]
+df_dep_var = variables[['open classroom discussion', 'professor teaching style', 'subject teaching matter', 'access to library resources', 'freedom to openly debate established theories', 'freedom to pursue new research directions', 'collaboration with other students']]
 
 fa = FactorAnalyzer()
 fa.fit(df_dep_var)
 
 # Use Kaiser criterion (eigenvalues greater than 1)
+
 print("Eigenvalues:")
 print(fa.get_eigenvalues())
-
-# Get factor loadings
-loadings = fa.loadings_
-print("Factor Loadings:")
-print(loadings)
-
 
 #%%
 
@@ -67,10 +103,12 @@ print(loadings)
 # Set up the primary independent variable - regions
 
 regions = {
-    'Asian': {'Asian': 1, 'White': 0, 'African': 0, 'Other': 0},
-    'White': {'Asian': 0, 'White': 1, 'African': 1, 'Other': 1},
-    'African': {'Asian': 0, 'White': 0, 'African': 1, 'Other': 0},
-    'Other': {'Asian': 0, 'White': 0, 'African': 0, 'Other': 1}
+    'East Asia': {'East Asia': 1, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'Other': 0},
+    'South Asia': {'East Asia': 0, 'South Asia': 1, 'Middle East': 0, 'White': 0, 'Africa': 0, 'Other': 0},
+    'Middle East': {'East Asia': 0, 'South Asia': 0, 'Middle East': 1, 'White': 0, 'Africa': 0, 'Other': 0},
+    'White': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 1, 'Africa': 0, 'Other': 0},
+    'Africa': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 1, 'Other': 0},
+    'Other': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'Other': 1},
 }
 
 for region, values in regions.items():
@@ -125,7 +163,7 @@ for discipline, values in disciplines.items():
 # Model 1 (reference: white)
 
 dep_var  = 'att_rates'
-ind_vars = ['Asian', 'African', 'Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Other']
 
 Y = variables[dep_var]
 
@@ -143,7 +181,7 @@ print( results.summary() )
 # Model 2 (reference: <30)
 
 dep_var  = 'att_rates'
-ind_vars = ['Asian', 'African', 'Other', '31-35', '36-40', '41-45']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Other','31-35', '36-40', '41-45']
 
 Y = variables[dep_var]
 
@@ -167,7 +205,7 @@ print(betas)
 # Model 3 (reference: male)
 
 dep_var  = 'att_rates'
-ind_vars = ['Asian', 'African', 'Other', '31-35', '36-40', '41-45', 'female', 'na']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Other','31-35', '36-40', '41-45', 'female', 'na']
 
 Y = variables[dep_var]
 
@@ -191,7 +229,7 @@ print(betas)
 # Model 4 (reference: Computer Science)
 
 dep_var  = 'att_rates'
-ind_vars = ['Asian', 'African', 'Other', '31-35', '36-40', '41-45', 'female', 'na', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Other','31-35', '36-40', '41-45', 'female', 'na', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
 
 Y = variables[dep_var]
 
