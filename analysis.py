@@ -103,19 +103,19 @@ print(fa.get_eigenvalues())
 # Set up the primary independent variable - regions
 
 regions = {
-    'East Asia': {'East Asia': 1, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'Other': 0},
-    'South Asia': {'East Asia': 0, 'South Asia': 1, 'Middle East': 0, 'White': 0, 'Africa': 0, 'Other': 0},
-    'Middle East': {'East Asia': 0, 'South Asia': 0, 'Middle East': 1, 'White': 0, 'Africa': 0, 'Other': 0},
-    'White': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 1, 'Africa': 0, 'Other': 0},
-    'Africa': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 1, 'Other': 0},
-    'Other': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'Other': 1},
+    'East Asia': {'East Asia': 1, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'South America': 0},
+    'South Asia': {'East Asia': 0, 'South Asia': 1, 'Middle East': 0, 'White': 0, 'Africa': 0, 'South America': 0},
+    'Middle East': {'East Asia': 0, 'South Asia': 0, 'Middle East': 1, 'White': 0, 'Africa': 0, 'South America': 0},
+    'White': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 1, 'Africa': 0, 'South America': 0},
+    'Black': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 1, 'South America': 0},
+    'South America': {'East Asia': 0, 'South Asia': 0, 'Middle East': 0, 'White': 0, 'Africa': 0, 'South America': 1},
 }
 
 for region, values in regions.items():
     variables[region] = variables['region'].replace(values)
     
 # Count the number of values equal to 1 in each column
-counts = variables[['East Asia', 'South Asia', 'Middle East', 'Africa', 'White', 'Other']].eq(1).sum()
+counts = variables[['East Asia', 'South Asia', 'Middle East', 'White', 'Black','South America']].eq(1).sum()
 
 print("Number of students in each region:")
 print(counts)
@@ -169,7 +169,7 @@ for discipline, values in disciplines.items():
 # Model 1 (reference: white)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Black','South America']
 
 Y = variables[dep_var]
 
@@ -187,7 +187,7 @@ print( results.summary() )
 # Model 2 (reference: <30)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Black','South America','31-35', '36-40', '41-45']
 
 Y = variables[dep_var]
 
@@ -211,7 +211,7 @@ print(betas)
 # Model 3 (reference: male)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45', 'female', 'na']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Black','South America','31-35', '36-40', '41-45', 'female', 'na']
 
 Y = variables[dep_var]
 
@@ -235,7 +235,7 @@ print(betas)
 # Model 4 (reference: Computer Science)
 
 dep_var  = 'att_rates'
-ind_vars = ['South Asia', 'East Asia', 'Middle East','Africa','Other','31-35', '36-40', '41-45', 'female', 'na', 'phd', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
+ind_vars = ['South Asia', 'East Asia', 'Middle East','Black','South America','31-35', '36-40', '41-45', 'female', 'na', 'phd', 'Life Sciences', 'Physical Sciences', 'Engineering', 'Mathematics', 'Other']
 
 Y = variables[dep_var]
 
