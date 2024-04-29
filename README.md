@@ -1,5 +1,5 @@
-# International-Students-Opinion
-Attitudes towards US STEM Graduate Education: Opinions of International Students from Asian, Black and “White” Countries
+# International Students’ Attitude toward US STEM Education
+Opinions of International Students from South Asian, East Asian, "Black" and “White” Countries
 
 # Purpose
 
@@ -9,39 +9,16 @@ The United States has historically been a significant destination for internatio
 
 This is a secondary data of The International STEM Graduate Student Survey conducted in 2015 that aimed to assess multiple aspects of international graduate students in STEM majors in the US including reasons for their decisions of pursuing graduate study in the US, challenges they have experienced during their study, their future career plans and their intention to stay or leave the US after graduation (Han et al. 2015). Han et al (2015) used the combination of purposive and simple random sampling strategies through selecting STEM graduate students from the 10 universities that ranked top in the total number of enrolled international students as their sample group. A total number of 2,322 respondents completed the surveys in which 1,535 of them were domestic students and 787 were international students (ibid.), which were coded separately. I only utilized the data of international students for this analysis. 
 
-The data can be obtained on ICPSR (https://www.icpsr.umich.edu/web/pages/) by searching for the key words, "international students". At the moment of this analysis, this study poped up in the third line of the results
+The data can be obtained on ICPSR (https://www.icpsr.umich.edu/web/pages/) by searching for the key words, "international students". At the moment of this analysis, this study poped up in the third line of the results.
 
 # The Scripts
 
 There are two scripts, data_clean.py and analysis.py, which should be run by this order. 
 
-# The first script serves to clean the data.
+The first script, data_clean.py, serves to clean the data. The input file are 'int_results.csv' and 'country_list.csv'. 'int_results.csv' is the raw data of survey responses from international students. 'country_list.csv' is the raw data that includes 218 countries, and each of them is assigned with a country code. To clean the data, the script works to trim down the variables into the ones needed for the analysis, change labels of the column names and values into meaningful ones and group the countries into regions by merging the two input files.  
 
-## Prepare for the analysis
-1. Open the files of 'int_results.csv' and 'country_list.csv'.
-1. Trims down the variables into the ones needed for the analysis and lable the column names meaningfully.
-1. Create a column of regions in the country list.
-1. Recategorize the countries into regions.
-1. Merge the dataframes on the country code. 
-1. Change the values into meaningful lables for the control variables.
-1. Calculate the accumulated attitude rates.
-1. Save the cleaned data into 'data_clean.csv'.
+The second script, analysis.py, mainly works to run a factor analysis of the dependent variable, and OLS regression models for statistical analysis. In particular, it generates the Eigenvalue and runs 4 models of OLS regression on the respective independent variables. Model 1 includes only the primary independent variables with the reference of the 'white' category. Model 2 adds the control variable of age with the reference of the '<30' category. Model 3 adds the control variable of gender with the reference of the 'male' category. Model 4 adds the control variable of discipline with the reference of the 'Computer Science' category. Coefficients (Betas) are generated in model 2, 3 and 4 to measure the changes in the independent variables affecting the dependent variable.
 
-# The second script, analysis.py, mainly works to run a factor analysis of the dependent variable, and OLS regression models for statistical analysis. It includes the following steps: 
-
-## Present the variables
-1. Produce a quick overview of the primary independent variable (region) and the control variables using catplot figures.
-1. Produce distribution of each of the seven submeasurements of the dependent variable using a histogram.
-1. Produced distribution of each of the seven submeasurements of the dependent variable by regions using boxen plots.
-1. Producce distribution of accumulated rates of the dependent variable. 
-
-## Factor analysis of the dependent variable
-1. Print the  Eigenvalue of the seven submeasurements.
-
-## OLS regression model
-1. Set up for the model. Since the primary independent variable and all control variables are categorical variables with string values, each category is coded into a dichotomous variable with numeric values of 0 and 1.
-1. Count the number of international students from each region.
-1. Run an OLS regression model for attitudes international students towards of graduate stem US education. Model 1 includes only the primary independent variables with the reference of the 'white' category. Model 2 adds the control variable of age with the reference of the '<30' category. Model 3 adds the control variable of gender with the reference of the 'male' category. Model 4 adds the control variable of discipline with the reference of the 'Computer Science' category. Coefficients (Betas) are generated in model 2, 3 and 4 to measure the changes in the independent variables affecting the dependent variable.
 
 # Additional files 
 
@@ -52,7 +29,11 @@ There are two scripts, data_clean.py and analysis.py, which should be run by thi
 1. 'data_clean.csv' is the cleaned data generated by the script, data_clean.py. 
 1. There are also three folders containing figures generated by the script, analysis.py. The one named 'distribution-of-attitudes' contains figures of accumulated rates of attitudes and individual submeasurements. The one named 'distribution-of-attitudes-by-regions' contains figures of individual submeasurements' distribution by regions. The one named 'distribution-of-control-variables' contains figures of distribution of control variables and the primary independent variable.
 
-# Results and Discussion
+# Results 
+
+
+
+# Discussion
 
 The distribution of dependent variables demonstrate that, overall, participants tend to rate higher than lower. The average rates center around 3 to 4. Participants are very satisfied with access to library resources and comparatively less satisfied with freedom to openly debate established theories. Surprisingly, students from the traditional “Black” countries rate much higher than others across the seven submeasurements. Students from East and South Asia also rate comparatively high. In comparison, students from the traditional “White” countries tend to rate lower than others. The high rate of access of library resources gains much contribution from students of "Black" countries, South Asia and Middle East, whereas the low rate of freedom to openly debate established theories is much influenced by students of "White" countries and Middle East. 
 
@@ -63,4 +44,5 @@ Another potential explanation is that international students from Asian and Afri
 Interestingly, when it comes to professors' teaching styles, the subject matter of instruction, and collaboration with other students, those from East Asia tend to rate lower than their counterparts from South Asia. This difference may be attributed to the divergent sociolinguistic backgrounds between South and East Asian students, as these three aspects are closely linked to interpersonal interactions. Given that the majority of respondents from South Asia hail from India, where English is one of the official languages, it is highly likely that they are adept at navigating English-dominated classes and interpersonal communications. In contrast, language barriers are frequently cited as significant challenges faced by East Asian students.
 
 
+                               
 

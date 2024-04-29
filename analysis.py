@@ -254,10 +254,18 @@ betas = results.params
 print("Coefficients (Betas):")
 print(betas)
 
+#%%
 
+both = pd.DataFrame()
+both['param_beta'] = results.params
+both['st_e'] = results.bse
 
+both = both.drop('const')
+both = both.reset_index()
 
-
+fig1 = sns.catplot(data=both, y='index', x='param_beta', kind='bar')
+fig1.tight_layout()
+fig1.savefig("coefficients.png")
 
 
 
