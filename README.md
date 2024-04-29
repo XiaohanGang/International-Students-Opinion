@@ -1,2 +1,66 @@
 # International-Students-Opinion
-Attitudes towards US STEM Graduate Education: Opinions of International Students from Asian, African and “White” Countries
+Attitudes towards US STEM Graduate Education: Opinions of International Students from Asian, Black and “White” Countries
+
+# Purpose
+
+The United States has historically been a significant destination for international students. The contribution of international students to universities, such as enhancing diversity, generating revenue, and diversifying cultural perspectives, is widely acknowledged in scholarly literature (Lee 2010; Lee and Rice 2007; Urban and Palmer 2014; Hegarty 2014). However, universities have focused more on attracting international students, while paying little attention to their educational experiences and their opinions on receiving education in their host country after enrollment (Lee 2010; Lee and Rice 2007). Moreover, research has revealed that international students hailing from various countries tend to have divergent experiences within their host institutions. Thus, the analysis aims to reveal the differences in attitudes towards US STEM graduate education between Asian/African countries and “white” countries.
+
+# Data
+
+This is a secondary data of The International STEM Graduate Student Survey conducted in 2015 that aimed to assess multiple aspects of international graduate students in STEM majors in the US including reasons for their decisions of pursuing graduate study in the US, challenges they have experienced during their study, their future career plans and their intention to stay or leave the US after graduation (Han et al. 2015). Han et al (2015) used the combination of purposive and simple random sampling strategies through selecting STEM graduate students from the 10 universities that ranked top in the total number of enrolled international students as their sample group. A total number of 2,322 respondents completed the surveys in which 1,535 of them were domestic students and 787 were international students (ibid.), which were coded separately. I only utilized the data of international students for this analysis. 
+
+The data can be obtained on ICPSR (https://www.icpsr.umich.edu/web/pages/) by searching for the key words, "international students". At the moment of this analysis, this study poped up in the third line of the results
+
+# The Scripts
+
+There are two scripts, data_clean.py and analysis.py, which should be run by this order. 
+
+# The first script serves to clean the data.
+
+## Prepare for the analysis
+1. Open the files of 'int_results.csv' and 'country_list.csv'.
+1. Trims down the variables into the ones needed for the analysis and lable the column names meaningfully.
+1. Create a column of regions in the country list.
+1. Recategorize the countries into regions.
+1. Merge the dataframes on the country code. 
+1. Change the values into meaningful lables for the control variables.
+1. Calculate the accumulated attitude rates.
+1. Save the cleaned data into 'data_clean.csv'.
+
+# The second script, analysis.py, mainly works to run a factor analysis of the dependent variable, and OLS regression models for statistical analysis. It includes the following steps: 
+
+## Present the variables
+1. Produce a quick overview of the primary independent variable (region) and the control variables using catplot figures.
+1. Produce distribution of each of the seven submeasurements of the dependent variable using a histogram.
+1. Produced distribution of each of the seven submeasurements of the dependent variable by regions using boxen plots.
+1. Producce distribution of accumulated rates of the dependent variable. 
+
+## Factor analysis of the dependent variable
+1. Print the  Eigenvalue of the seven submeasurements.
+
+## OLS regression model
+1. Set up for the model. Since the primary independent variable and all control variables are categorical variables with string values, each category is coded into a dichotomous variable with numeric values of 0 and 1.
+1. Count the number of international students from each region.
+1. Run an OLS regression model for attitudes international students towards of graduate stem US education. Model 1 includes only the primary independent variables with the reference of the 'white' category. Model 2 adds the control variable of age with the reference of the '<30' category. Model 3 adds the control variable of gender with the reference of the 'male' category. Model 4 adds the control variable of discipline with the reference of the 'Computer Science' category. Coefficients (Betas) are generated in model 2, 3 and 4 to measure the changes in the independent variables affecting the dependent variable.
+
+# Additional files 
+
+1. A README.md provides a description of this project. 
+1. 'survey' is the survey used to collect the data. 
+1. 'int_results.csv' is the raw data file containing 787 survey results answered by international students. 
+1. 'country_list.csv' is the file containing 218 countries respectively assigned with a code.
+1. 'data_clean.csv' is the cleaned data generated by the script, data_clean.py. 
+1. There are also three folders containing figures generated by the script, analysis.py. The one named 'distribution-of-attitudes' contains figures of accumulated rates of attitudes and individual submeasurements. The one named 'distribution-of-attitudes-by-regions' contains figures of individual submeasurements' distribution by regions. The one named 'distribution-of-control-variables' contains figures of distribution of control variables and the primary independent variable.
+
+# Results and Discussion
+
+The distribution of dependent variables demonstrate that, overall, participants tend to rate higher than lower. The average rates center around 3 to 4. Participants are very satisfied with access to library resources and comparatively less satisfied with freedom to openly debate established theories. Surprisingly, students from the traditional “Black” countries rate much higher than others across the seven submeasurements. Students from East and South Asia also rate comparatively high. In comparison, students from the traditional “White” countries tend to rate lower than others. The high rate of access of library resources gains much contribution from students of "Black" countries, South Asia and Middle East, whereas the low rate of freedom to openly debate established theories is much influenced by students of "White" countries and Middle East. 
+
+This result is contrary to what was hypothesized based on previous research where negative experiences such as barriers in making friends with domestic students (Zhou and Cole 2017), being engaged in cultural resources (Urban and Palmer 2014), interaction with domestic students (Ma 2020) and experiences of discrimination (Lee and Rice 2007) are constantly reported by Asian and Black international students. One possible reason for this result could be the specific focus on academic experiences instead of social experiences informed by the measuring model question in this study. This possibly indicates that Asian and African international students are more likely to be satisfied with their STEM graduate education in the US regarding their academic experiences. 
+
+Another potential explanation is that international students from Asian and African countries may feel disempowered to offer criticism of US education compared to those from "white" countries. This may be due in part to the increased levels of discrimination that Asian and African international students experience (Hanassab 2006; Lee and Rice 2007), less social support (Mallinckrodt and Leong 1992) and hightened stress in academic settings (Alharbi and Smith 2018), these factors suggest that international students from Asian and African countries may face marginalization and be hesitant to voice negative evaluations of their education.
+
+Interestingly, when it comes to professors' teaching styles, the subject matter of instruction, and collaboration with other students, those from East Asia tend to rate lower than their counterparts from South Asia. This difference may be attributed to the divergent sociolinguistic backgrounds between South and East Asian students, as these three aspects are closely linked to interpersonal interactions. Given that the majority of respondents from South Asia hail from India, where English is one of the official languages, it is highly likely that they are adept at navigating English-dominated classes and interpersonal communications. In contrast, language barriers are frequently cited as significant challenges faced by East Asian students.
+
+
+
