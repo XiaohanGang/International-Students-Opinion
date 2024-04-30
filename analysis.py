@@ -42,12 +42,12 @@ for var in ctr_vars:
 
 ### Label individual attitudes
 
-fix_name = {'att_1': 'open classroom discussion','att_2': 'professor teaching style','att_3': 'subject teaching matter','att_4': 'access to library resources','att_5': 'freedom to openly debate established theories','att_6': 'freedom to pursue new research directions','att_7': 'collaboration with other students'}
+fix_name = {'att_1': 'open_classroom_discussion','att_2': 'professor_teaching_style','att_3': 'subject_teaching_matter','att_4': 'access_to_library_resources','att_5': 'freedom_to_openly_debate_established_theories','att_6': 'freedom_to_pursue_new_research_directions','att_7': 'collaboration_with_other_students'}
 variables = variables.rename(columns=fix_name)
 
 ### set up
 
-ind_dep_vars = ['open classroom discussion', 'professor teaching style', 'subject teaching matter', 'access to library resources', 'freedom to openly debate established theories', 'freedom to pursue new research directions', 'collaboration with other students']
+ind_dep_vars = ['open_classroom_discussion', 'professor_teaching_style', 'subject_teaching_matter', 'access_to_library_resources', 'freedom_to_openly_debate_established_theories', 'freedom_to_pursue_new_research_directions', 'collaboration_with_other_students']
 
 ### Create a figure and an array of subplots
 
@@ -62,7 +62,7 @@ for i, (col, ax) in enumerate(zip(variables[ind_dep_vars].columns, axes)):
     ax.set_ylabel("Frequency")
     fig.tight_layout()
 
-fig.savefig("Individual Attitude Comparison.png")
+fig.savefig("Individual-Attitude-Comparison.png")
 
 ## distribution of individual attitude variables by region
     
@@ -86,7 +86,7 @@ fig.savefig("attitudes.png")
 
 # Factor analysis of the dependent variable
 
-df_dep_var = variables[['open classroom discussion', 'professor teaching style', 'subject teaching matter', 'access to library resources', 'freedom to openly debate established theories', 'freedom to pursue new research directions', 'collaboration with other students']]
+df_dep_var = variables[['open_classroom_discussion', 'professor_teaching_style', 'subject_teaching_matter', 'access_to_library_resources', 'freedom_to_openly_debate_established_theories', 'freedom_to_pursue_new_research_directions', 'collaboration_with_other_students']]
 
 fa = FactorAnalyzer()
 fa.fit(df_dep_var)
